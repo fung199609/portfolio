@@ -17,7 +17,7 @@ class MainScreen extends React.Component {
       isTypeComplete: false,
       hoverIndex: -1,
       isHover: false,
-      loading: false
+      loading: true
     };
   }
 
@@ -33,9 +33,23 @@ class MainScreen extends React.Component {
     console.log("nav", index);
   };
 
-  _renderTypingAnimation = () => {
+  _renderStartAnimation = () => {
     return (
-      <div style={styles.typeBlackBg}>
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          bottom: 0,
+          left: 0,
+          right: 0,
+          backgroundColor: "#000000",
+          //   visibility: this.state.loading ? "visible" : "hidden",
+          opacity: this.state.loading ? 1 : 0,
+
+          visibility: this.state.loading ? "visible" : "hidden",
+          transition: "visibility 0s 1s, opacity 1s linear"
+        }}
+      >
         <Typing
           //   loop={true}
           onFinishedTyping={() => {
@@ -47,8 +61,8 @@ class MainScreen extends React.Component {
           speed={50}
           hideCursor={false}
         >
-          <div style={styles.typeContainer}>
-            <div style={{ height: 50 }}></div>
+          <div style={styles.startAnimationTypeContainer}>
+            <div style={{ height: window.innerHeight / 2 - 100 }}></div>
             <span>I'm Andy Chan</span>
             <Typing.Delay ms="200" />
             <span>Mobile Apps Developer</span>
@@ -57,6 +71,21 @@ class MainScreen extends React.Component {
             {/* <Typing.Reset count={0} delay={500} /> */}
           </div>
         </Typing>
+      </div>
+    );
+  };
+
+  _renderTypingAnimation = () => {
+    return (
+      <div style={styles.typeBlackBg}>
+        <div style={styles.typeContainer}>
+          <div style={{ height: 50 }}></div>
+          <span>I'm Andy Chan</span>
+          <Typing.Delay ms="200" />
+          <span>Mobile Apps Developer</span>
+          <Typing.Delay ms="200" />
+          <span>iOS & Android</span>
+        </div>
       </div>
     );
   };
@@ -124,7 +153,7 @@ class MainScreen extends React.Component {
               src={item.img}
             />
             <div
-              class={"hover_bg"}
+              className={"hover_bg"}
               style={{
                 position: "absolute",
                 left: 10,
@@ -160,20 +189,19 @@ class MainScreen extends React.Component {
   };
 
   render() {
+    // if (!this.state.loading)
     return (
       <div style={{ position: "relative", width: "100%", height: "100%" }}>
         <script
           src="https://unpkg.com/react/umd/react.production.min.js"
           crossorigin
         />
-
         <NavBar
           title="PORTFOLIO"
           navTextArr={["Home", "Project", "Contact"]}
           onClickNav={this._onClickNav}
         />
         {this._renderTypingAnimation()}
-
         <div style={{ marginTop: 20 }}></div>
         <CategoryGroup
           containerStyle={styles.categoryGroup}
@@ -181,37 +209,36 @@ class MainScreen extends React.Component {
           selectIndex={this.state.index}
           btnTextArr={["All", "Mobile", "Web", "Others"]}
         />
-        {!this.state.loading && (
-          <Container
-            fluid={true}
-            style={{
-              marginTop: 30,
-              width: "100%"
-            }}
-          >
-            <FlipMove className="row">{this._renderImages()}</FlipMove>
-          </Container>
-        )}
-        {this.state.loading && (
-          <div
-            style={{
-              position: "absolute",
-              //   top: "50%",
-              left: "50%",
-              margin: "auto",
-              zIndex: 999,
-              top: 450
-            }}
-          >
-            <Roller size={200} color="#000000" />
-          </div>
-        )}
+        <Container
+          fluid={true}
+          style={{
+            marginTop: 30,
+            width: "100%"
+          }}
+        >
+          <FlipMove className="row">{this._renderImages()}</FlipMove>
+        </Container>
+        {this._renderStartAnimation()}
       </div>
     );
+    // else {
+    //   return
+    // }
   }
 }
 
 const styles = {
+  startAnimationTypeContainer: {
+    width: "100%",
+    textAlign: "center",
+    fontFamily: "monospace",
+    color: "#ffffff",
+    fontSize: 25,
+    height: window.innerHeight,
+    display: "flex",
+    flexDirection: "column",
+    zIndex: 999
+  },
   typeBlackBg: {
     width: "100%",
     textAlign: "center",
