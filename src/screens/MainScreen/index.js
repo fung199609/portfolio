@@ -1,13 +1,10 @@
 import React from "react";
 import Typing from "react-typing-animation";
-import { Container, Row, Col, Image } from "react-bootstrap";
+import { Container, Col, Image } from "react-bootstrap";
 import CategoryGroup from "../../components/CategoryGroup";
 import NavBar from "../../components/NavBar";
 import localData from "../../assets/data/projects";
 import FlipMove from "react-flip-move";
-import { Ring, Roller } from "react-awesome-spinners";
-import "./index.css";
-import "./jquery.js";
 
 class MainScreen extends React.Component {
   constructor(props) {
@@ -43,22 +40,19 @@ class MainScreen extends React.Component {
           left: 0,
           right: 0,
           backgroundColor: "#000000",
-          //   visibility: this.state.loading ? "visible" : "hidden",
           opacity: this.state.loading ? 1 : 0,
-
           visibility: this.state.loading ? "visible" : "hidden",
           transition: "visibility 0s 1s, opacity 1s linear"
         }}
       >
         <Typing
-          //   loop={true}
           onFinishedTyping={() => {
             this.setState({
               isTypeComplete: true,
               loading: false
             });
           }}
-          speed={50}
+          speed={100}
           hideCursor={false}
         >
           <div style={styles.startAnimationTypeContainer}>
@@ -68,7 +62,6 @@ class MainScreen extends React.Component {
             <span>Mobile Apps Developer</span>
             <Typing.Delay ms="200" />
             <span>iOS & Android</span>
-            {/* <Typing.Reset count={0} delay={500} /> */}
           </div>
         </Typing>
       </div>
@@ -106,7 +99,6 @@ class MainScreen extends React.Component {
     return tmpData.map((item, index) => {
       return (
         <Col
-          key={index}
           xs={12}
           sm={6}
           md={4}
@@ -120,22 +112,25 @@ class MainScreen extends React.Component {
         >
           <div
             className="itemTag"
-            // onMouseUp={() => {
-            //   if (!this.state.isHover && this.state.isTypeComplete) {
-            //     this.setState({
-            //       hoverIndex: index,
-            //       isHover: true
-            //     });
-            //   }
-            // }}
-            // onMouseOut={() => {
-            //   if (this.state.isTypeComplete) {
-            //     this.setState({
-            //       hoverIndex: -1,
-            //       isHover: false
-            //     });
-            //   }
-            // }}
+            onMouseOver={() => {
+              if (!this.state.isHover) {
+                console.log("onMouseUp");
+                this.setState({
+                  hoverIndex: index,
+                  isHover: true
+                });
+              }
+            }}
+            onMouseOut={() => {
+              console.log("onMouseOut");
+              this.setState({
+                hoverIndex: -1,
+                isHover: false
+              });
+            }}
+            onClick={() => {
+              console.log("item", item, index);
+            }}
             style={{
               width: "100%",
               height: "100%",
@@ -148,10 +143,17 @@ class MainScreen extends React.Component {
               fluid
               rounded
               style={{
-                ...{ width: "100%", height: "100%", objectFit: "cover" }
+                ...{ width: "100%", height: "100%", objectFit: "cover" },
+                ...(this.state.isHover &&
+                  this.state.hoverIndex === index && {
+                    transform: "scale(1.2)",
+                    transition: "all 0.5s ease 0s",
+                    borderRadius: 5
+                  })
               }}
               src={item.img}
             />
+
             <div
               className={"hover_bg"}
               style={{
@@ -162,14 +164,17 @@ class MainScreen extends React.Component {
                 bottom: 0,
                 borderRadius: 5,
                 backgroundColor: "rgba(0,0,0,0.7)",
-                visibility: "hidden"
+                visibility:
+                  this.state.isHover && this.state.hoverIndex === index
+                    ? "visible"
+                    : "hidden"
               }}
             ></div>
+
             <div
               className="itemTitle"
               style={{
                 color: "#ffffff",
-                // fontFamily: "monospace",
                 fontSize: 20,
                 fontWeight: "bolder",
                 position: "absolute",
@@ -177,7 +182,10 @@ class MainScreen extends React.Component {
                 right: 40,
                 top: "35%",
                 textAlign: "center",
-                visibility: "hidden"
+                visibility:
+                  this.state.isHover && this.state.hoverIndex === index
+                    ? "visible"
+                    : "hidden"
               }}
             >
               <span>{item.title}</span>
@@ -189,13 +197,9 @@ class MainScreen extends React.Component {
   };
 
   render() {
-    // if (!this.state.loading)
     return (
       <div style={{ position: "relative", width: "100%", height: "100%" }}>
-        <script
-          src="https://unpkg.com/react/umd/react.production.min.js"
-          crossorigin
-        />
+        <script src="https://unpkg.com/react/umd/react.production.min.js" />
         <NavBar
           title="PORTFOLIO"
           navTextArr={["Home", "Project", "Contact"]}
@@ -221,9 +225,6 @@ class MainScreen extends React.Component {
         {this._renderStartAnimation()}
       </div>
     );
-    // else {
-    //   return
-    // }
   }
 }
 
