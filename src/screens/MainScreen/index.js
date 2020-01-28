@@ -7,12 +7,15 @@ import {
   Card,
   ListGroup,
   Button,
-  Modal
+  Modal,
+  Carousel,
+  ModalTitle
 } from "react-bootstrap";
 import CategoryGroup from "../../components/CategoryGroup";
 import NavBar from "../../components/NavBar";
 import localData from "../../assets/data/projects";
 import FlipMove from "react-flip-move";
+import YouTube from "react-youtube";
 
 class MainScreen extends React.Component {
   constructor(props) {
@@ -24,7 +27,7 @@ class MainScreen extends React.Component {
       isHover: false,
       loading: true,
       showModal: false,
-      selectedIndex: -1
+      selectedItem: null
     };
   }
 
@@ -142,7 +145,7 @@ class MainScreen extends React.Component {
               console.log("item", item, index);
               this.setState({
                 showModal: true,
-                selectIndex: index
+                selectedItem: item
               });
             }}
             style={{
@@ -255,7 +258,7 @@ class MainScreen extends React.Component {
             style={{ marginRight: 30 }}
             width={40}
             height={40}
-            src={"/images/email_icon.png"}
+            src={"/images/layouts/email_icon.png"}
             onClick={() => {
               window.location.href = "mailto:fung199609@gmail.com";
             }}
@@ -263,7 +266,7 @@ class MainScreen extends React.Component {
           <Image
             width={45}
             height={45}
-            src={"/images/linkedin_icon.png"}
+            src={"/images/layouts/linkedin_icon.png"}
             onClick={() => {
               window.open(
                 "https://www.linkedin.com/in/tsz-fung-chan-629293158/"
@@ -274,7 +277,7 @@ class MainScreen extends React.Component {
             style={{ marginLeft: 30 }}
             width={40}
             height={40}
-            src={"/images/telegram_icon.png"}
+            src={"/images/layouts/telegram_icon.png"}
             onClick={() => {
               alert("Coming Soon");
             }}
@@ -285,30 +288,101 @@ class MainScreen extends React.Component {
   };
 
   _renderModal = () => {
+    let carouselItems = null;
+    let responsibilities = null;
+    if (
+      this.state.selectedItem &&
+      this.state.selectedItem.images &&
+      this.state.selectedItem.responsibility
+    ) {
+      carouselItems = this.state.selectedItem.images.map(image => {
+        return (
+          <Carousel.Item style={{ height: 350, backgroundColor: "#000" }}>
+            <img
+              className="d-block w-100"
+              src={image}
+              alt="First slide"
+              style={{ objectFit: "contain", height: "100%" }}
+            />
+          </Carousel.Item>
+        );
+      });
+      responsibilities = this.state.selectedItem.responsibility.map(item => {
+        return (
+          <ul>
+            <li style={{ marginTop: 10 }}>
+              {item.title}
+              {item.sub && (
+                <ul>
+                  {item.sub.map(sub => {
+                    return <li style={{ marginTop: 10 }}>{sub}</li>;
+                  })}
+                </ul>
+              )}
+            </li>
+          </ul>
+        );
+      });
+    }
+
     return (
-      <div
-        style={{
-          position: "absolute",
-          top: 0,
-          left: 0,
-          right: 0,
-          bottom: 0,
-          backgroundColor: "rgba(0,0,0,0.7)",
-          display: "flex",
-          justifyContent: "center",
-          alignItems: "center"
+      <Modal
+        show={this.state.showModal}
+        centered
+        size="xl"
+        aria-labelledby="contained-modal-title-vcenter"
+        animation={true}
+        onHide={() => {
+          this.setState({
+            selectIndex: -1,
+            showModal: false
+          });
         }}
       >
         <Card
-          style={{ width: "70%", height: window.screen.height * 0.6 }}
-        ></Card>
-      </div>
+          style={{
+            width: "100%",
+            padding: 20
+          }}
+        >
+          <Modal.Header closeButton>
+            <Modal.Title id="contained-modal-title-vcenter">
+              {this.state.selectedItem ? this.state.selectedItem.title : ""}
+            </Modal.Title>
+          </Modal.Header>
+          <Modal.Body
+            style={{ overflowY: "auto", maxHeight: window.screen.height * 0.7 }}
+          >
+            {this.state.selectedItem && this.state.selectedItem.youtubeId && (
+              <YouTube
+                videoId={this.state.selectedItem.youtubeId}
+                opts={{ width: "100%" }}
+              />
+            )}
+            <Carousel interval={0} style={{ marginTop: 40, marginBottom: 40 }}>
+              {carouselItems}
+            </Carousel>
+            <p style={{ fontSize: 18, fontWeight: 700 }}>Description</p>
+            <p style={{ lineHeight: "30px", marginBottom: 40 }}>
+              {this.state.selectedItem ? this.state.selectedItem.desc : ""}
+            </p>
+            <p style={{ fontSize: 18, fontWeight: 700 }}>Responsibility</p>
+            {responsibilities}
+          </Modal.Body>
+        </Card>
+      </Modal>
     );
   };
 
   render() {
     return (
-      <div style={{ position: "relative", width: "100%", height: "100%" }}>
+      <div
+        style={{
+          position: "relative",
+          width: "100%",
+          height: "100%"
+        }}
+      >
         <script src="https://unpkg.com/react/umd/react.production.min.js" />
         {!this.state.loading && (
           <React.Fragment>
@@ -339,7 +413,7 @@ class MainScreen extends React.Component {
           </React.Fragment>
         )}
         {this._renderStartAnimation()}
-        {this.state.showModal && this._renderModal()}
+        {this._renderModal()}
       </div>
     );
   }
