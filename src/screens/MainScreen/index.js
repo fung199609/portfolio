@@ -1,6 +1,14 @@
 import React from "react";
 import Typing from "react-typing-animation";
-import { Container, Col, Image } from "react-bootstrap";
+import {
+  Container,
+  Col,
+  Image,
+  Card,
+  ListGroup,
+  Button,
+  Modal
+} from "react-bootstrap";
 import CategoryGroup from "../../components/CategoryGroup";
 import NavBar from "../../components/NavBar";
 import localData from "../../assets/data/projects";
@@ -14,7 +22,9 @@ class MainScreen extends React.Component {
       isTypeComplete: false,
       hoverIndex: -1,
       isHover: false,
-      loading: true
+      loading: true,
+      showModal: false,
+      selectedIndex: -1
     };
   }
 
@@ -130,6 +140,10 @@ class MainScreen extends React.Component {
             }}
             onClick={() => {
               console.log("item", item, index);
+              this.setState({
+                showModal: true,
+                selectIndex: index
+              });
             }}
             style={{
               width: "100%",
@@ -196,33 +210,136 @@ class MainScreen extends React.Component {
     });
   };
 
+  _renderContact = () => {
+    return (
+      <div
+        style={{
+          marginTop: 100,
+          display: "flex",
+          flexDirection: "column",
+          width: "100%",
+          alignItems: "center",
+          backgroundColor: "rgb(245,245,245)",
+          paddingTop: 40,
+          paddingBottom: 40,
+          paddingLeft: 60,
+          paddingRight: 60,
+          textAlign: "center"
+        }}
+      >
+        <span style={{ fontSize: 25, marginBottom: 20 }}>Andy Chan</span>
+        <span
+          style={{
+            marginBottom: 20,
+            width: "80%",
+            lineHeight: "30px",
+            fontWeight: 300,
+            fontSize: "16px",
+            color: "#555"
+          }}
+        >
+          {
+            "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application based on different situation"
+          }
+        </span>
+        <div
+          style={{
+            display: "flex",
+            flexDirection: "row",
+            justifyContent: "center",
+            alignItems: "center",
+            marginTop: 40
+          }}
+        >
+          <Image
+            style={{ marginRight: 30 }}
+            width={40}
+            height={40}
+            src={"/images/email_icon.png"}
+            onClick={() => {
+              window.location.href = "mailto:fung199609@gmail.com";
+            }}
+          />
+          <Image
+            width={45}
+            height={45}
+            src={"/images/linkedin_icon.png"}
+            onClick={() => {
+              window.open(
+                "https://www.linkedin.com/in/tsz-fung-chan-629293158/"
+              );
+            }}
+          />
+          <Image
+            style={{ marginLeft: 30 }}
+            width={40}
+            height={40}
+            src={"/images/telegram_icon.png"}
+            onClick={() => {
+              alert("Coming Soon");
+            }}
+          />
+        </div>
+      </div>
+    );
+  };
+
+  _renderModal = () => {
+    return (
+      <div
+        style={{
+          position: "absolute",
+          top: 0,
+          left: 0,
+          right: 0,
+          bottom: 0,
+          backgroundColor: "rgba(0,0,0,0.7)",
+          display: "flex",
+          justifyContent: "center",
+          alignItems: "center"
+        }}
+      >
+        <Card
+          style={{ width: "70%", height: window.screen.height * 0.6 }}
+        ></Card>
+      </div>
+    );
+  };
+
   render() {
     return (
       <div style={{ position: "relative", width: "100%", height: "100%" }}>
         <script src="https://unpkg.com/react/umd/react.production.min.js" />
-        <NavBar
-          title="PORTFOLIO"
-          navTextArr={["Home", "Project", "Contact"]}
-          onClickNav={this._onClickNav}
-        />
-        {this._renderTypingAnimation()}
-        <div style={{ marginTop: 20 }}></div>
-        <CategoryGroup
-          containerStyle={styles.categoryGroup}
-          _updateTab={this._updateTab}
-          selectIndex={this.state.index}
-          btnTextArr={["All", "Mobile", "Web", "Others"]}
-        />
-        <Container
-          fluid={true}
-          style={{
-            marginTop: 30,
-            width: "100%"
-          }}
-        >
-          <FlipMove className="row">{this._renderImages()}</FlipMove>
-        </Container>
+        {!this.state.loading && (
+          <React.Fragment>
+            <NavBar
+              title="PORTFOLIO"
+              navTextArr={["Home", "Project", "Contact"]}
+              onClickNav={this._onClickNav}
+            />
+            {this._renderTypingAnimation()}
+            <div style={{ marginTop: 20 }}></div>
+            <CategoryGroup
+              containerStyle={styles.categoryGroup}
+              _updateTab={this._updateTab}
+              selectIndex={this.state.index}
+              btnTextArr={["All", "Mobile", "Web", "Others"]}
+            />
+            <Container
+              fluid={true}
+              style={{
+                marginTop: 30,
+                width: "100%",
+                minHeight: 600
+              }}
+            >
+              <FlipMove className="row">{this._renderImages()}</FlipMove>
+            </Container>
+            {this._renderContact()}
+          </React.Fragment>
+        )}
         {this._renderStartAnimation()}
+        {this.state.showModal && this._renderModal()}
       </div>
     );
   }
@@ -238,6 +355,7 @@ const styles = {
     height: window.innerHeight,
     display: "flex",
     flexDirection: "column",
+    backgroundColor: "#000000",
     zIndex: 999
   },
   typeBlackBg: {
