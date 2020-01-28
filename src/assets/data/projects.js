@@ -131,7 +131,20 @@ const localData = [
   {
     img: "/images/projects/mobile/pandaplace/mobile_pandaplace.png",
     type: "mobile",
-    title: "Panda Place Mobile App"
+    title: "Panda Place Mobile App",
+    images: ["/images/projects/mobile/pandaplace/1.jpg"],
+    responsibility: [
+      {
+        title: "Frond-end Layout Implementation",
+        sub: ["Develop with React Native (iOS & Android)", "Layout Revamp"]
+      },
+      {
+        title: "Features",
+        sub: ["Event & Shop information", "Membership"]
+      }
+    ],
+    desc:
+      "The client would like to put the membership programme functions online, allowing the customers to check their points, redemption record, and reserve gifts online anytime and anywhere. The previous CRM system were not capable to support on the increasing of needs, therefore, we manage the customers’ data migration and integrated the new revamped mobile apps to our CCCRM. It is a big improvement in their mobile apps."
   },
   {
     img: "/images/projects/mobile/mabella/mobile_fanshare.png",
