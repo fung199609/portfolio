@@ -14,7 +14,7 @@
     "react-typing-animation": "1.5.1",
     "react-youtube": "^7.9.0"
   },
-  "homepage": "https://fung199609.github.io/production",
+  "homepage": "https://fung199609.github.io/portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
