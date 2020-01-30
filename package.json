@@ -14,7 +14,7 @@
     "react-typing-animation": "1.5.1",
     "react-youtube": "^7.9.0"
   },
-  "homepage": "https://bitbucket.org/fung199609/react-web-portfolio/src/master/",
+  "homepage": "https://fung199609.github.io/production",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
