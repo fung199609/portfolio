@@ -258,7 +258,7 @@ class MainScreen extends React.Component {
             style={{ marginRight: 30 }}
             width={40}
             height={40}
-            src={"/images/layouts/email_icon.png"}
+            src={process.env.PUBLIC_URL + "/images/layouts/email_icon.png"}
             onClick={() => {
               window.location.href = "mailto:fung199609@gmail.com";
             }}
@@ -266,7 +266,7 @@ class MainScreen extends React.Component {
           <Image
             width={45}
             height={45}
-            src={"/images/layouts/linkedin_icon.png"}
+            src={process.env.PUBLIC_URL + "/images/layouts/linkedin_icon.png"}
             onClick={() => {
               window.open(
                 "https://www.linkedin.com/in/tsz-fung-chan-629293158/"
@@ -277,7 +277,7 @@ class MainScreen extends React.Component {
             style={{ marginLeft: 30 }}
             width={40}
             height={40}
-            src={"/images/layouts/telegram_icon.png"}
+            src={process.env.PUBLIC_URL + "/images/layouts/telegram_icon.png"}
             onClick={() => {
               alert("Coming Soon");
             }}

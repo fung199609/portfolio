@@ -4,15 +4,20 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.4.1",
+    "gh-pages": "^2.2.0",
     "react": "^16.12.0",
     "react-bootstrap": "^1.0.0-beta.16",
     "react-dom": "^16.12.0",
     "react-flip-move": "^3.0.4",
+    "react-player": "^1.14.2",
     "react-scripts": "3.0.1",
     "react-typing-animation": "1.5.1",
     "react-youtube": "^7.9.0"
   },
+  "homepage": "https://bitbucket.org/fung199609/react-web-portfolio/src/master/",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
