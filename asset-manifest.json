@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/production/static/css/main.34de6062.chunk.css",
-    "main.js": "/production/static/js/main.486783d5.chunk.js",
-    "main.js.map": "/production/static/js/main.486783d5.chunk.js.map",
-    "runtime~main.js": "/production/static/js/runtime~main.2910c19d.js",
-    "runtime~main.js.map": "/production/static/js/runtime~main.2910c19d.js.map",
-    "static/css/2.47e06e2e.chunk.css": "/production/static/css/2.47e06e2e.chunk.css",
-    "static/js/2.1cc46782.chunk.js": "/production/static/js/2.1cc46782.chunk.js",
-    "static/js/2.1cc46782.chunk.js.map": "/production/static/js/2.1cc46782.chunk.js.map",
-    "index.html": "/production/index.html",
-    "precache-manifest.263cffecec30b31aa0e98e37aaa34fe3.js": "/production/precache-manifest.263cffecec30b31aa0e98e37aaa34fe3.js",
-    "service-worker.js": "/production/service-worker.js",
-    "static/css/2.47e06e2e.chunk.css.map": "/production/static/css/2.47e06e2e.chunk.css.map",
-    "static/css/main.34de6062.chunk.css.map": "/production/static/css/main.34de6062.chunk.css.map"
+    "main.css": "/portfolio/static/css/main.34de6062.chunk.css",
+    "main.js": "/portfolio/static/js/main.0f09b532.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.0f09b532.chunk.js.map",
+    "runtime~main.js": "/portfolio/static/js/runtime~main.f308c8e6.js",
+    "runtime~main.js.map": "/portfolio/static/js/runtime~main.f308c8e6.js.map",
+    "static/css/2.47e06e2e.chunk.css": "/portfolio/static/css/2.47e06e2e.chunk.css",
+    "static/js/2.fdb32ac2.chunk.js": "/portfolio/static/js/2.fdb32ac2.chunk.js",
+    "static/js/2.fdb32ac2.chunk.js.map": "/portfolio/static/js/2.fdb32ac2.chunk.js.map",
+    "index.html": "/portfolio/index.html",
+    "precache-manifest.25bc848064ccebb4a4bfbbbd71786498.js": "/portfolio/precache-manifest.25bc848064ccebb4a4bfbbbd71786498.js",
+    "service-worker.js": "/portfolio/service-worker.js",
+    "static/css/2.47e06e2e.chunk.css.map": "/portfolio/static/css/2.47e06e2e.chunk.css.map",
+    "static/css/main.34de6062.chunk.css.map": "/portfolio/static/css/main.34de6062.chunk.css.map"
   }
 }
