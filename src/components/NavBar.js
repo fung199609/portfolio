@@ -19,7 +19,13 @@ class NavBar extends Component {
   };
   render() {
     return (
-      <Navbar collapseOnSelect expand="lg" bg="light" variant="light">
+      <Navbar
+        fixed="top"
+        collapseOnSelect
+        expand="lg"
+        bg="light"
+        variant="light"
+      >
         <Navbar.Brand href="#home">{this.props.title}</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">

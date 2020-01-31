@@ -29,6 +29,9 @@ class MainScreen extends React.Component {
       showModal: false,
       selectedItem: null
     };
+    this.homeRef = React.createRef();
+    this.projectRef = React.createRef();
+    this.contactRef = React.createRef();
   }
 
   _updateTab = _index => {
@@ -41,6 +44,29 @@ class MainScreen extends React.Component {
 
   _onClickNav = index => {
     console.log("nav", index);
+    switch (index) {
+      case 0:
+        window.scrollTo({
+          left: 0,
+          top: this.homeRef.current.offsetTop,
+          behavior: "smooth"
+        });
+        break;
+      case 1:
+        window.scrollTo({
+          left: 0,
+          top: this.projectRef.current.offsetTop,
+          behavior: "smooth"
+        });
+        break;
+      case 2:
+        window.scrollTo({
+          left: 0,
+          top: this.contactRef.current.offsetTop,
+          behavior: "smooth"
+        });
+        break;
+    }
   };
 
   _renderStartAnimation = () => {
@@ -83,7 +109,7 @@ class MainScreen extends React.Component {
 
   _renderTypingAnimation = () => {
     return (
-      <div style={styles.typeBlackBg}>
+      <div style={styles.typeBlackBg} ref={this.homeRef}>
         <div style={styles.typeContainer}>
           <div style={{ height: 50 }}></div>
           <span>I'm Andy Chan</span>
@@ -111,18 +137,7 @@ class MainScreen extends React.Component {
     }
     return tmpData.map((item, index) => {
       return (
-        <Col
-          xs={12}
-          sm={6}
-          md={4}
-          style={{
-            paddingLeft: 10,
-            paddingRight: 10,
-            marginBottom: 10,
-            borderRadius: 5,
-            overflow: "hidden"
-          }}
-        >
+        <Col xs={12} sm={6} md={4} xl={3} style={styles.itemContainer}>
           <div
             className="itemTag"
             onMouseOver={() => {
@@ -135,26 +150,18 @@ class MainScreen extends React.Component {
               }
             }}
             onMouseOut={() => {
-              console.log("onMouseOut");
               this.setState({
                 hoverIndex: -1,
                 isHover: false
               });
             }}
             onClick={() => {
-              console.log("item", item, index);
               this.setState({
                 showModal: true,
                 selectedItem: item
               });
             }}
-            style={{
-              width: "100%",
-              height: "100%",
-              overflow: "hidden",
-              borderRadius: 5,
-              textAlign: "center"
-            }}
+            style={styles.itemImageContainer}
           >
             <Image
               fluid
@@ -174,38 +181,32 @@ class MainScreen extends React.Component {
             <div
               className={"hover_bg"}
               style={{
-                position: "absolute",
-                left: 10,
-                right: 10,
-                top: 0,
-                bottom: 0,
-                borderRadius: 5,
-                backgroundColor: "rgba(0,0,0,0.7)",
-                visibility:
-                  this.state.isHover && this.state.hoverIndex === index
-                    ? "visible"
-                    : "hidden"
-              }}
-            ></div>
-
-            <div
-              className="itemTitle"
-              style={{
-                color: "#ffffff",
-                fontSize: 20,
-                fontWeight: "bolder",
-                position: "absolute",
-                left: 40,
-                right: 40,
-                top: "35%",
-                textAlign: "center",
-                visibility:
-                  this.state.isHover && this.state.hoverIndex === index
-                    ? "visible"
-                    : "hidden"
+                ...styles.itemHoverBg,
+                ...{
+                  visibility:
+                    this.state.isHover && this.state.hoverIndex === index
+                      ? "visible"
+                      : "hidden"
+                }
               }}
             >
-              <span>{item.title}</span>
+              <div
+                className="itemTitle"
+                style={{
+                  color: "#ffffff",
+                  fontSize: 20,
+                  fontWeight: "bolder",
+                  left: 40,
+                  right: 40,
+                  pointerEvents: "none",
+                  visibility:
+                    this.state.isHover && this.state.hoverIndex === index
+                      ? "visible"
+                      : "hidden"
+                }}
+              >
+                <span>{item.title}</span>
+              </div>
             </div>
           </div>
         </Col>
@@ -216,6 +217,7 @@ class MainScreen extends React.Component {
   _renderContact = () => {
     return (
       <div
+        ref={this.contactRef}
         style={{
           marginTop: 100,
           display: "flex",
@@ -255,7 +257,7 @@ class MainScreen extends React.Component {
           }}
         >
           <Image
-            style={{ marginRight: 30 }}
+            style={{ marginRight: 30, cursor: "pointer" }}
             width={40}
             height={40}
             src={process.env.PUBLIC_URL + "/images/layouts/email_icon.png"}
@@ -264,6 +266,7 @@ class MainScreen extends React.Component {
             }}
           />
           <Image
+            style={{ cursor: "pointer" }}
             width={45}
             height={45}
             src={process.env.PUBLIC_URL + "/images/layouts/linkedin_icon.png"}
@@ -274,7 +277,7 @@ class MainScreen extends React.Component {
             }}
           />
           <Image
-            style={{ marginLeft: 30 }}
+            style={{ marginLeft: 30, cursor: "pointer" }}
             width={40}
             height={40}
             src={process.env.PUBLIC_URL + "/images/layouts/telegram_icon.png"}
@@ -400,6 +403,7 @@ class MainScreen extends React.Component {
               btnTextArr={["All", "Mobile", "Web", "Others"]}
             />
             <Container
+              ref={this.projectRef}
               fluid={true}
               style={{
                 marginTop: 30,
@@ -436,7 +440,8 @@ const styles = {
     width: "100%",
     textAlign: "center",
     backgroundColor: "rgb(51,51,51)",
-    height: 200
+    height: 200,
+    marginTop: 56
   },
   typeContainer: {
     width: "100%",
@@ -455,6 +460,35 @@ const styles = {
     flexDirection: "row",
     alignItems: "center",
     justifyContent: "center"
+  },
+  itemContainer: {
+    paddingLeft: 10,
+    paddingRight: 10,
+    marginBottom: 10,
+    borderRadius: 5,
+    overflow: "hidden",
+    cursor: "pointer"
+  },
+  itemImageContainer: {
+    width: "100%",
+    height: "100%",
+    overflow: "hidden",
+    borderRadius: 5,
+    textAlign: "center"
+  },
+  itemHoverBg: {
+    position: "absolute",
+    left: 10,
+    right: 10,
+    top: 0,
+    bottom: 0,
+    borderRadius: 5,
+    backgroundColor: "rgba(0,0,0,0.7)",
+    textAlign: "center",
+    display: "flex",
+    alignItems: "center",
+    justifyContent: "center",
+    padding: "0px 30px"
   }
 };
 
