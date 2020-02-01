@@ -9,7 +9,8 @@ import {
   Button,
   Modal,
   Carousel,
-  ModalTitle
+  ModalTitle,
+  Row
 } from "react-bootstrap";
 import CategoryGroup from "../../components/CategoryGroup";
 import NavBar from "../../components/NavBar";
@@ -227,26 +228,31 @@ class MainScreen extends React.Component {
           backgroundColor: "rgb(245,245,245)",
           paddingTop: 40,
           paddingBottom: 40,
-          paddingLeft: 60,
-          paddingRight: 60,
           textAlign: "center"
         }}
       >
         <span style={{ fontSize: 25, marginBottom: 20 }}>Andy Chan</span>
-        <span
-          style={{
-            marginBottom: 20,
-            width: "80%",
-            lineHeight: "30px",
-            fontWeight: 300,
-            fontSize: "16px",
-            color: "#555"
-          }}
-        >
-          {
-            "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application based on different situation"
-          }
-        </span>
+        <Row>
+          <Col md={3} xs={2}></Col>
+          <Col md={6} xs={8}>
+            <span
+              style={{
+                marginBottom: 20,
+                // width: md.mobile() ? "90%" : "65%",
+                lineHeight: "30px",
+                fontWeight: 300,
+                fontSize: "16px",
+                color: "#555"
+              }}
+            >
+              {
+                "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application based on different situation."
+              }
+            </span>
+          </Col>
+          <Col md={3} xs={2}></Col>
+        </Row>
+
         <div
           style={{
             display: "flex",
