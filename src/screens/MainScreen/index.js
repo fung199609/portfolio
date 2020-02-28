@@ -311,7 +311,7 @@ class MainScreen extends React.Component {
               className="d-block w-100"
               src={image}
               alt="First slide"
-              style={{ objectFit: "contain", height: "100%" }}
+              style={{ objectFit: "contain", height: "100%", imageOrientation: 'from-image'}}
             />
           </Carousel.Item>
         );

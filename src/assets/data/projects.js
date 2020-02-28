@@ -1,5 +1,26 @@
 const localData = [
   {
+    img: process.env.PUBLIC_URL + "/images/projects/mobile/mpfa/mobile_mpfa.png",
+    type: "mobile",
+    title: "MPFA Mobile App",
+    images: [
+      process.env.PUBLIC_URL + "/images/projects/mobile/mpfa/mobile_mpfa.png",
+    ],
+    responsibility: [
+      {
+        title: "Frond-end Layout Implementation",
+        sub: ["Develop with React-Native (iOS & Android)", "Layout Revamp"]
+      },
+      {
+        title: "Features",
+        sub: ["Coming Soon"]
+      }
+    ],
+    desc:
+      "Coming Soon",
+    // youtubeId: "9R2w4t8hBns"
+  },
+  {
     img: process.env.PUBLIC_URL + "/images/projects/mobile/bea/mobile_bea.png",
     type: "mobile",
     title: "BEA Mobile App",
@@ -21,6 +42,31 @@ const localData = [
     desc:
       "The bank recently launched an entirely new level of mobile banking services in Asia with a fresh revamp of the BEA App. The app’s new design is in step with the latest global trends and significantly enhances the user experience. Customers with BEA’s premium SupremeGold account have a choice of colour scheme for the new interface: classic red or prestige black/gold.",
     youtubeId: "9R2w4t8hBns"
+  },
+  {
+    img: process.env.PUBLIC_URL + "/images/projects/mobile/boc/1.jpg",
+    type: "mobile",
+    title: "BOC Payment App",
+    images: [
+      process.env.PUBLIC_URL + "/images/projects/mobile/boc/1.jpg",
+      process.env.PUBLIC_URL + "/images/projects/mobile/boc/2.webp",
+      process.env.PUBLIC_URL + "/images/projects/mobile/boc/3.webp",
+      process.env.PUBLIC_URL + "/images/projects/mobile/boc/4.webp",
+      process.env.PUBLIC_URL + "/images/projects/mobile/boc/5.webp",
+    ],
+    responsibility: [
+      {
+        title: "Frond-end Layout Implementation",
+        sub: ["Develop with Objective-C (Native)"]
+      },
+      {
+        title: "Features",
+        sub: ["Simulate the real BoC app into large 4k TV", "Provide a tutorial flow for users"]
+      }
+    ],
+    desc:
+      "The bank recently launched an interactive mobile application in Asian Financial Forum 2020. Visitors can play with it to know hows it work, thereby have a deeper understanding of the useful of BoC Pay.",
+    youtubeId: "c6ijxrVVpxM"
   },
   {
     img: process.env.PUBLIC_URL + "/images/projects/mobile/hkhs/ipad_hkhs.png",
