@@ -215,6 +215,34 @@ class MainScreen extends React.Component {
     });
   };
 
+  _renderCV = () => {
+    return (
+      <div style={{
+        marginTop: 100,
+        display: "flex",
+        flexDirection: "row",
+        width: "100%",
+        alignItems: "center",
+        backgroundColor: "rgb(91,163,239)",
+        paddingTop: 60,
+        paddingBottom: 60,
+      }}>
+        <Row>
+          <Col md={1}></Col>
+          {/* <Col md={3} style={{alignSelf: 'center'}}><Image thumbnail src={process.env.PUBLIC_URL + "/images/layouts/portfolio_icon.jpg"} /></Col> */}
+          <Col md={10} style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', color: '#fff'}}>
+            <span style={{fontSize: 28, fontWeight: 'bold'}}>About Andy</span>
+            <span style={{fontSize: 18, marginTop: 10, lineHeight: '35px'}}>{
+              "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application."
+            }</span>
+          </Col>
+          <Col md={1}></Col>
+        </Row>
+        
+      </div>
+    )
+  }
+
   _renderContact = () => {
     return (
       <div
@@ -234,19 +262,20 @@ class MainScreen extends React.Component {
         <span style={{ fontSize: 25, marginBottom: 20 }}>Andy Chan</span>
         <Row>
           <Col md={3} xs={2}></Col>
-          <Col md={6} xs={8}>
+          <Col md={6} xs={8} style={{
+            textAlign: 'left', lineHeight: "30px",
+            fontWeight: 300,
+            fontSize: "16px",
+            color: "#555"}}>
             <span
               style={{
                 marginBottom: 20,
                 // width: md.mobile() ? "90%" : "65%",
-                lineHeight: "30px",
-                fontWeight: 300,
-                fontSize: "16px",
-                color: "#555"
+                
               }}
             >
               {
-                "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application based on different situation."
+                "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application."
               }
             </span>
           </Col>
@@ -389,7 +418,8 @@ class MainScreen extends React.Component {
         style={{
           position: "relative",
           width: "100%",
-          height: "100%"
+          height: "100%",
+          backgroundColor: 'rgb(247,248,250)'
         }}
       >
         <script src="https://unpkg.com/react/umd/react.production.min.js" />
@@ -419,6 +449,7 @@ class MainScreen extends React.Component {
             >
               <FlipMove className="row">{this._renderImages()}</FlipMove>
             </Container>
+            {this._renderCV()}
             {this._renderContact()}
           </React.Fragment>
         )}
@@ -439,13 +470,14 @@ const styles = {
     height: window.innerHeight,
     display: "flex",
     flexDirection: "column",
-    backgroundColor: "#000000",
+    backgroundColor: "rgb(91,163,239)",
     zIndex: 999
   },
   typeBlackBg: {
     width: "100%",
     textAlign: "center",
-    backgroundColor: "rgb(51,51,51)",
+    // backgroundColor: "rgb(51,51,51)",
+    backgroundColor: 'rgb(91,163,239)',
     height: 200,
     marginTop: 56
   },
