@@ -10,7 +10,6 @@ class NavBar extends Component {
           onSelect={() => {
             this.props.onClickNav(index);
           }}
-          style={{color: '#fff'}}
           href="#features"
         >
           {text}
@@ -24,11 +23,11 @@ class NavBar extends Component {
         fixed="top"
         collapseOnSelect
         expand="lg"
+        bg="light"
         variant="light"
-        style={{background: 'rgba(47, 113, 192)'}}
       >
-        <Navbar.Brand style={{color: '#fff'}} href="#home">{this.props.title}</Navbar.Brand>
-        <Navbar.Toggle style={{filter: 'brightness(0) invert(1)'}} aria-controls="responsive-navbar-nav" />
+        <Navbar.Brand href="#home">{this.props.title}</Navbar.Brand>
+        <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">{this._renderNavItems()}</Nav>
         </Navbar.Collapse>
