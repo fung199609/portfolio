@@ -57,9 +57,11 @@ class MainScreen extends React.Component {
     //     });
     //     break;
     // }
-    this.setState({
-      pageIndex: index,
-    })
+    if (index !== 2) {
+      this.setState({
+        pageIndex: index,
+      });
+    }
   };
 
   _renderStartAnimation = () => {
@@ -185,9 +187,9 @@ class MainScreen extends React.Component {
     return (
       <div
         style={{
-          position: "relative",
-          width: "100%",
-          height: "100%"
+          position: 'relative',
+          width: '100%',
+          height: '100%',
         }}
       >
         <script src="https://unpkg.com/react/umd/react.production.min.js" />
@@ -195,10 +197,15 @@ class MainScreen extends React.Component {
           <React.Fragment>
             <NavBar
               title="PORTFOLIO"
-              navTextArr={["Project", "Experience", "Skills"]}
+              navTextArr={['PROJECTS', 'PROFILE', 'RESUME']}
+              navUrlArr={[
+                '',
+                '',
+                'https://docs.google.com/uc?export=download&id=1L5HE25J4gAuYuH8IynPFF4xc915uHQ-V',
+              ]}
               onClickNav={this._onClickNav}
             />
-            {this.state.pageIndex===0 && <ProjectPage />}
+            {this.state.pageIndex === 0 && <ProjectPage />}
             {this._renderContact()}
           </React.Fragment>
         )}

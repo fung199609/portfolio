@@ -10,7 +10,7 @@ class NavBar extends Component {
           onSelect={() => {
             this.props.onClickNav(index);
           }}
-          href="#features"
+          href={this.props.navUrlArr[index]!==''? this.props.navUrlArr[index] : '#'}
         >
           {text}
         </Nav.Link>
@@ -39,6 +39,7 @@ class NavBar extends Component {
 NavBar.defaultProps = {
   title: "",
   navTextArr: [],
+  navUrlArr: [],
   onClickNav: index => {}
 };
 
