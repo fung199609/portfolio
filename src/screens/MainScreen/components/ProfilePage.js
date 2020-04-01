@@ -78,13 +78,106 @@ class ProfilePage extends Component {
             </Row>
             <Row style={{ paddingLeft: 40, paddingRight: 40 }}>
               <Col>
-                <Card style={{ height: 250, boxShadow: '1px 4px 8px rgba(0, 0, 0, 0.1)' }}></Card>
+                <Card style={{ height: 250, boxShadow: '1px 4px 8px rgba(0, 0, 0, 0.1)' }}>
+                  <div style={{ position: 'relative' }}>
+                    <Card.Img
+                      height={110}
+                      src={
+                        'https://www.ilounge.com/wp-content/uploads/2019/10/Mobile-App-Frameworks-That-Will-Trend-in-2020.png'
+                      }
+                    />
+                    <div
+                      style={{
+                        position: 'absolute',
+                        width: '100%',
+                        top: 0,
+                        bottom: 0,
+                        backgroundColor: 'rgba(0,0,0,0.3)',
+                      }}
+                    >
+                      <div
+                        style={{
+                          color: '#fff',
+                          position: 'absolute',
+                          textAlign: 'center',
+                          width: '100%',
+                          top: '40%',
+                          fontSize: 22,
+                        }}
+                      >
+                        Frontend
+                      </div>
+                    </div>
+                  </div>
+                </Card>
               </Col>
               <Col>
-                <Card style={{ height: 250, boxShadow: '1px 4px 8px rgba(0, 0, 0, 0.1)' }}></Card>
+                <Card style={{ height: 250, boxShadow: '1px 4px 8px rgba(0, 0, 0, 0.1)' }}>
+                  <div style={{ position: 'relative' }}>
+                    <Card.Img
+                      height={110}
+                      src={
+                        'https://virtualizationreview.com/-/media/ECG/VirtualizationReview/Images/IntroImages2016/0716vrm_DansTake.jpg'
+                      }
+                    />
+                    <div
+                      style={{
+                        position: 'absolute',
+                        width: '100%',
+                        top: 0,
+                        bottom: 0,
+                        backgroundColor: 'rgba(0,0,0,0.3)',
+                      }}
+                    >
+                      <div
+                        style={{
+                          color: '#fff',
+                          position: 'absolute',
+                          textAlign: 'center',
+                          width: '100%',
+                          top: '40%',
+                          fontSize: 22,
+                        }}
+                      >
+                        Backend
+                      </div>
+                    </div>
+                  </div>
+                </Card>
               </Col>
               <Col>
-                <Card style={{ height: 250, boxShadow: '1px 4px 8px rgba(0, 0, 0, 0.1)' }}></Card>
+                <Card style={{ height: 250, boxShadow: '1px 4px 8px rgba(0, 0, 0, 0.1)' }}>
+                  <div style={{ position: 'relative' }}>
+                    <Card.Img
+                      height={110}
+                      src={
+                        'https://news.efinancialcareers.com/binaries/content/gallery/efinancial-careers/articles/2019/03/programmer.jpg'
+                      }
+                    />
+                    <div
+                      style={{
+                        position: 'absolute',
+                        width: '100%',
+                        top: 0,
+                        bottom: 0,
+                        backgroundColor: 'rgba(0,0,0,0.3)',
+                      }}
+                    >
+                      <div
+                        style={{
+                          color: '#fff',
+                          position: 'absolute',
+                          textAlign: 'center',
+                          width: '100%',
+                          top: '40%',
+                          fontSize: 22,
+                        }}
+                      >
+                        Others
+                      </div>
+                    </div>
+                  </div>
+                </Card>
               </Col>
             </Row>
           </Fragment>
