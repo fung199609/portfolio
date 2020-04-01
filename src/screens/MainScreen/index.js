@@ -26,7 +26,7 @@ class MainScreen extends React.Component {
     this.state = {
       isTypeComplete: false,
       loading: true,
-      pageIndex: 0,
+      pageIndex: 0
     };
     this.homeRef = React.createRef();
     this.projectRef = React.createRef();
@@ -34,34 +34,9 @@ class MainScreen extends React.Component {
   }
 
   _onClickNav = index => {
-    console.log("nav", index);
-    // switch (index) {
-    //   case 0:
-    //     window.scrollTo({
-    //       left: 0,
-    //       top: this.homeRef.current.offsetTop,
-    //       behavior: "smooth"
-    //     });
-    //     break;
-    //   case 1:
-    //     window.scrollTo({
-    //       left: 0,
-    //       top: this.projectRef.current.offsetTop,
-    //       behavior: "smooth"
-    //     });
-    //     break;
-    //   case 2:
-    //     window.scrollTo({
-    //       left: 0,
-    //       top: this.contactRef.current.offsetTop,
-    //       behavior: "smooth"
-    //     });
-    //     break;
-    // }
     if (index !== 2) {
-      console.log('222222222')
       this.setState({
-        pageIndex: index,
+        pageIndex: index
       });
     }
   };
@@ -121,26 +96,28 @@ class MainScreen extends React.Component {
         }}
       >
         <span style={{ fontSize: 25, marginBottom: 20 }}>Andy Chan</span>
-        <Row>
-          <Col md={3} xs={2}></Col>
-          <Col md={6} xs={8}>
-            <span
-              style={{
-                marginBottom: 20,
-                // width: md.mobile() ? "90%" : "65%",
-                lineHeight: "30px",
-                fontWeight: 300,
-                fontSize: "16px",
-                color: "#555"
-              }}
-            >
-              {
-                "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application based on different situation."
-              }
-            </span>
-          </Col>
-          <Col md={3} xs={2}></Col>
-        </Row>
+        <Container>
+          <Row>
+            <Col md={2} xs={1}></Col>
+            <Col md={8} xs={10}>
+              <span
+                style={{
+                  marginBottom: 20,
+                  // width: md.mobile() ? "90%" : "65%",
+                  lineHeight: "30px",
+                  fontWeight: 300,
+                  fontSize: "16px",
+                  color: "#555"
+                }}
+              >
+                {
+                  "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application based on different situation."
+                }
+              </span>
+            </Col>
+            <Col md={2} xs={1}></Col>
+          </Row>
+        </Container>
 
         <div
           style={{
@@ -189,9 +166,9 @@ class MainScreen extends React.Component {
     return (
       <div
         style={{
-          position: 'relative',
-          width: '100%',
-          height: '100%',
+          position: "relative",
+          width: "100%",
+          height: "100%"
         }}
       >
         <script src="https://unpkg.com/react/umd/react.production.min.js" />
@@ -199,11 +176,11 @@ class MainScreen extends React.Component {
           <React.Fragment>
             <NavBar
               title="PORTFOLIO"
-              navTextArr={['PROJECTS', 'PROFILE', 'RESUME']}
+              navTextArr={["PROJECTS", "PROFILE", "RESUME"]}
               navUrlArr={[
-                '',
-                '',
-                'https://docs.google.com/uc?export=download&id=1L5HE25J4gAuYuH8IynPFF4xc915uHQ-V',
+                "",
+                "",
+                "https://docs.google.com/uc?export=download&id=1L5HE25J4gAuYuH8IynPFF4xc915uHQ-V"
               ]}
               onClickNav={this._onClickNav}
             />
