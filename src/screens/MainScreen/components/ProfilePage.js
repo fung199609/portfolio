@@ -25,6 +25,7 @@ class ProfilePage extends Component {
                     <span style={{ color: 'rgba(0,0,0,0.6)' }}>{item.time}</span>
                   </Row>
                   <Row
+                    className="xs-hidden"
                     style={{
                       marginTop: 10,
                       paddingRight: 10,
@@ -33,9 +34,11 @@ class ProfilePage extends Component {
                       marginBottom: 40,
                     }}
                   >
-                    {item.desc.map(desc => {
-                      return <span>{desc}</span>;
-                    })}
+                    <Col className="xs-hidden" xs={0} md={12} style={{ marginLeft: -10 }}>
+                      {item.desc.map(desc => {
+                        return <span>{desc}</span>;
+                      })}
+                    </Col>
                   </Row>
                 </Col>
                 {index < localData.works.length - 1 && (

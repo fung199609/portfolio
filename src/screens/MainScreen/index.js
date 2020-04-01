@@ -209,7 +209,7 @@ class MainScreen extends React.Component {
             />
             {this.state.pageIndex === 0 && <ProjectPage />}
             {this.state.pageIndex === 1 && <ProfilePage />}
-            {this._renderContact()}
+            {this.state.pageIndex === 0 && this._renderContact()}
           </React.Fragment>
         )}
         {this._renderStartAnimation()}
