@@ -18,6 +18,7 @@ import localData from "../../assets/data/projects";
 import FlipMove from "react-flip-move";
 import YouTube from "react-youtube";
 import ProjectPage from "./components/ProjectPage";
+import ProfilePage from "./components/ProfilePage";
 
 class MainScreen extends React.Component {
   constructor(props) {
@@ -58,6 +59,7 @@ class MainScreen extends React.Component {
     //     break;
     // }
     if (index !== 2) {
+      console.log('222222222')
       this.setState({
         pageIndex: index,
       });
@@ -206,6 +208,7 @@ class MainScreen extends React.Component {
               onClickNav={this._onClickNav}
             />
             {this.state.pageIndex === 0 && <ProjectPage />}
+            {this.state.pageIndex === 1 && <ProfilePage />}
             {this._renderContact()}
           </React.Fragment>
         )}
