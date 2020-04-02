@@ -180,7 +180,7 @@ class MainScreen extends React.Component {
               navUrlArr={[
                 "",
                 "",
-                "https://docs.google.com/uc?export=download&id=1L5HE25J4gAuYuH8IynPFF4xc915uHQ-V"
+                "https://docs.google.com/uc?export=download&id=1NerAvSZ7BNIS1iXrO66tVNhgnkSSHfLF"
               ]}
               onClickNav={this._onClickNav}
             />

@@ -1,8 +1,7 @@
 const localData = {
   works: [
     {
-      img:
-        "https://competition.adesignaward.com/brands/83d64288d41a3450cd4c570a997299c29b236d5d.jpg",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/cccdi.jpg",
       role: "Mobile Apps Developer",
       company: "cccdi ltd.",
       time: "2018 Aug - Now",
@@ -12,8 +11,7 @@ const localData = {
       ]
     },
     {
-      img:
-        "https://pbs.twimg.com/profile_images/694391447563403264/nOcFJwd5.png",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/innopage.png",
       role: "Mobile Apps Developer (Placement)",
       company: "InnoPage",
       time: "2017 Jul - 2018 Apr",
@@ -23,8 +21,7 @@ const localData = {
       ]
     },
     {
-      img:
-        "https://secure.meetupstatic.com/photos/member/4/9/4/member_203521172.jpeg",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/hkbackpacker.jpeg",
       role: "Mobile Apps Developer (Placement)",
       company: "HKBackpackers (NGO)",
       time: "2015 Jul - 2015 Aug",
@@ -34,15 +31,14 @@ const localData = {
       ]
     },
     {
-      img: "https://www.jijis.org.hk/images/logo/CITYU.png",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/cityu.png",
       role: "Degree in Computer Science",
       company: "City University Of Hong Kong",
       time: "2016 - 2018",
       desc: []
     },
     {
-      img:
-        "https://static.wixstatic.com/media/ddf66d_9e48d855264d4016b3e9b9e6d1fac941~mv2.png",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/ive.png",
       role: "High Diploma in Software Engineering",
       company: "Hong kong Institute of Vocational Education (Tsing Yi)",
       time: "2014 - 2016",
@@ -51,8 +47,7 @@ const localData = {
   ],
   skills: [
     {
-      img:
-        "https://www.ilounge.com/wp-content/uploads/2019/10/Mobile-App-Frameworks-That-Will-Trend-in-2020.png",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/mobile.webp",
       name: "Frontend",
       desc: [
         "Android - Java/Kotlin",
@@ -63,14 +58,12 @@ const localData = {
       ]
     },
     {
-      img:
-        "https://virtualizationreview.com/-/media/ECG/VirtualizationReview/Images/IntroImages2016/0716vrm_DansTake.jpg",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/server.jpg",
       name: "Backend",
       desc: ["Node.js", "Express/AdonisJs", "PHP", "JSP", "MySQL"]
     },
     {
-      img:
-        "https://news.efinancialcareers.com/binaries/content/gallery/efinancial-careers/articles/2019/03/programmer.jpg",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/others.jpg",
       name: "Others",
       desc: [
         "Unit Testing (JUnit)",
