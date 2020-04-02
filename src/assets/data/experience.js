@@ -47,7 +47,7 @@ const localData = {
   ],
   skills: [
     {
-      img: process.env.PUBLIC_URL + "/images/layouts/profile/mobile.webp",
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/mobile.jpg",
       name: "Frontend",
       desc: [
         "Android - Java/Kotlin",
