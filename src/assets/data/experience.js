@@ -52,15 +52,14 @@ const localData = {
       desc: [
         "Android - Java/Kotlin",
         "iOS - Objective-C/Swift",
-        "React Native/ionic/Flutter",
-        "DHTML (HTML/CSS/JavaScript)",
+        "React Native",
         "ReactJS/jQuery/EJS/Jade"
       ]
     },
     {
       img: process.env.PUBLIC_URL + "/images/layouts/profile/server.jpg",
       name: "Backend",
-      desc: ["Node.js", "Express/AdonisJs", "PHP", "JSP", "MySQL"]
+      desc: ["Node.js", "Express/AdonisJs", "MySQL"]
     },
     {
       img: process.env.PUBLIC_URL + "/images/layouts/profile/others.jpg",
