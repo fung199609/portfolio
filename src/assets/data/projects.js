@@ -57,7 +57,10 @@ const localData = [
       },
       {
         title: 'Features',
-        sub: ['Simulate the real BoC app into large 4k TV', 'Provide a hand-on experience and education to visitors on how to use Boc Pay.'],
+        sub: [
+          'Simulate the real BoC app into large 4k TV',
+          'Provide a hand-on experience and education to visitors on how to use Boc Pay.',
+        ],
       },
     ],
     desc:
@@ -91,7 +94,7 @@ const localData = [
     youtubeId: 'ndMDe9fiCc0',
   },
   {
-    img: process.env.PUBLIC_URL + '/images/projects/mobile/voiceup/ipad_voiceup.png',
+    img: process.env.PUBLIC_URL + '/images/projects/mobile/voiceup/1.png',
     type: 'mobile',
     title: 'iPad Voiceup App',
     images: [
@@ -115,8 +118,8 @@ const localData = [
       },
     ],
     desc:
-      "'Voice Up' is the theme for this year. Speaking up is the first step on the recovery journey. It is a call for a more understanding and an embracing society for mental health issues. Together, we hope to reduce discrimination against mental health sufferers and inspire acceptance to help sufferers on their recovery journey. So let's team up for a great cause, as your voice matters.",
-    youtubeId: 'k1QzeTGr1EE',
+      'In order to encourage people to raise their awareness of mental health, the phone booth with iPad games is created, visitors could leave their message of support; their unique sound spectrum will be then generated with  selfie as an e-card, which enable them to send to friends for sharing their cares. The first installation of iPad game will be at Jardine Strategic Meeting, and then will be displayed in different locations in the form of roadshow.',
+    youtubeId: 'RrFBYSXxS8I',
   },
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/twparking/mobile_twparking.png',

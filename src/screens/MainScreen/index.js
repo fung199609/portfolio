@@ -12,11 +12,7 @@ import {
   ModalTitle,
   Row,
 } from "react-bootstrap";
-import CategoryGroup from "../../components/CategoryGroup";
 import NavBar from "../../components/NavBar";
-import localData from "../../assets/data/projects";
-import FlipMove from "react-flip-move";
-import YouTube from "react-youtube";
 import ProjectPage from "./components/ProjectPage";
 import ProfilePage from "./components/ProfilePage";
 
