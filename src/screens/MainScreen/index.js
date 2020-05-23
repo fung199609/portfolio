@@ -10,7 +10,7 @@ import {
   Modal,
   Carousel,
   ModalTitle,
-  Row
+  Row,
 } from "react-bootstrap";
 import CategoryGroup from "../../components/CategoryGroup";
 import NavBar from "../../components/NavBar";
@@ -26,17 +26,17 @@ class MainScreen extends React.Component {
     this.state = {
       isTypeComplete: false,
       loading: true,
-      pageIndex: 0
+      pageIndex: 0,
     };
     this.homeRef = React.createRef();
     this.projectRef = React.createRef();
     this.contactRef = React.createRef();
   }
 
-  _onClickNav = index => {
+  _onClickNav = (index) => {
     if (index !== 2) {
       this.setState({
-        pageIndex: index
+        pageIndex: index,
       });
     }
   };
@@ -53,14 +53,14 @@ class MainScreen extends React.Component {
           backgroundColor: "#000000",
           opacity: this.state.loading ? 1 : 0,
           visibility: this.state.loading ? "visible" : "hidden",
-          transition: "visibility 0s 1s, opacity 1s linear"
+          transition: "visibility 0s 1s, opacity 1s linear",
         }}
       >
         <Typing
           onFinishedTyping={() => {
             this.setState({
               isTypeComplete: true,
-              loading: false
+              loading: false,
             });
           }}
           speed={100}
@@ -92,7 +92,7 @@ class MainScreen extends React.Component {
           backgroundColor: "rgb(245,245,245)",
           paddingTop: 40,
           paddingBottom: 40,
-          textAlign: "center"
+          textAlign: "center",
         }}
       >
         <span style={{ fontSize: 25, marginBottom: 20 }}>Andy Chan</span>
@@ -107,7 +107,7 @@ class MainScreen extends React.Component {
                   lineHeight: "30px",
                   fontWeight: 300,
                   fontSize: "16px",
-                  color: "#555"
+                  color: "#555",
                 }}
               >
                 {
@@ -125,7 +125,7 @@ class MainScreen extends React.Component {
             flexDirection: "row",
             justifyContent: "center",
             alignItems: "center",
-            marginTop: 40
+            marginTop: 40,
           }}
         >
           <Image
@@ -168,20 +168,26 @@ class MainScreen extends React.Component {
         style={{
           position: "relative",
           width: "100%",
-          height: "100%"
+          height: "100%",
         }}
       >
         <script src="https://unpkg.com/react/umd/react.production.min.js" />
         {!this.state.loading && (
           <React.Fragment>
-            <NavBar
+            {/* <NavBar
               title="PORTFOLIO"
               navTextArr={["PROJECTS", "PROFILE", "RESUME"]}
               navUrlArr={[
                 "",
                 "",
-                "https://docs.google.com/uc?export=download&id=1NerAvSZ7BNIS1iXrO66tVNhgnkSSHfLF"
+                "https://docs.google.com/uc?export=download&id=1NerAvSZ7BNIS1iXrO66tVNhgnkSSHfLF",
               ]}
+              onClickNav={this._onClickNav}
+            /> */}
+            <NavBar
+              title="PORTFOLIO"
+              navTextArr={["PROJECTS", "PROFILE"]}
+              navUrlArr={["", ""]}
               onClickNav={this._onClickNav}
             />
             {this.state.pageIndex === 0 && <ProjectPage />}
@@ -206,14 +212,14 @@ const styles = {
     display: "flex",
     flexDirection: "column",
     backgroundColor: "#000000",
-    zIndex: 999
+    zIndex: 999,
   },
   typeBlackBg: {
     width: "100%",
     textAlign: "center",
     backgroundColor: "rgb(51,51,51)",
     height: 200,
-    marginTop: 56
+    marginTop: 56,
   },
   typeContainer: {
     width: "100%",
@@ -224,14 +230,14 @@ const styles = {
     height: 200,
     display: "flex",
     flexDirection: "column",
-    zIndex: 999
+    zIndex: 999,
   },
   categoryGroup: {
     width: "100%",
     display: "flex",
     flexDirection: "row",
     alignItems: "center",
-    justifyContent: "center"
+    justifyContent: "center",
   },
   itemContainer: {
     paddingLeft: 10,
@@ -239,14 +245,14 @@ const styles = {
     marginBottom: 10,
     borderRadius: 5,
     overflow: "hidden",
-    cursor: "pointer"
+    cursor: "pointer",
   },
   itemImageContainer: {
     width: "100%",
     height: "100%",
     overflow: "hidden",
     borderRadius: 5,
-    textAlign: "center"
+    textAlign: "center",
   },
   itemHoverBg: {
     position: "absolute",
@@ -260,8 +266,8 @@ const styles = {
     display: "flex",
     alignItems: "center",
     justifyContent: "center",
-    padding: "0px 30px"
-  }
+    padding: "0px 30px",
+  },
 };
 
 export default MainScreen;
