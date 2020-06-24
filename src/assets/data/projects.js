@@ -3,7 +3,13 @@ const localData = [
     img: process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png',
     type: 'mobile',
     title: 'MPFA Mobile App',
-    images: [process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png'],
+    images: [
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/1.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/2.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/3.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/4.png',
+    ],
     responsibility: [
       {
         title: 'Frond-end Layout Implementation',
@@ -11,10 +17,11 @@ const localData = [
       },
       {
         title: 'Features',
-        sub: ['Coming Soon'],
+        sub: ['Retirement planning calculator', 'Spending tracker'],
       },
     ],
-    desc: 'Coming Soon',
+    desc:
+      'The MPFA has launched a mobile app that enables you to use your phone for convenient money management and retirement planning. With its Retirement Planning Calculator and Spending Tracker, the mobile app keeps you on track to achieve your retirement goals gradually by helping you calculate your retirement needs, set a savings goal, and manage your money wisely.',
     // youtubeId: "9R2w4t8hBns"
   },
   {
