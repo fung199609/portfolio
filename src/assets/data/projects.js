@@ -2,7 +2,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png',
     type: 'mobile',
-    title: 'MPFA Mobile App',
+    title: 'MPFA Mobile App (Develop)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png',
       process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/1.png',
@@ -27,7 +27,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/bea/mobile_bea.png',
     type: 'mobile',
-    title: 'BEA Mobile App',
+    title: 'BEA Mobile App (Maintenance)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/mobile/bea/1.jpg',
       process.env.PUBLIC_URL + '/images/projects/mobile/bea/2.jpg',
@@ -50,7 +50,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/boc/1.jpg',
     type: 'mobile',
-    title: 'BOC Payment App',
+    title: 'BOC Payment App (Develop)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/mobile/boc/1.jpg',
       process.env.PUBLIC_URL + '/images/projects/mobile/boc/2.png',
@@ -77,7 +77,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/hkhs/ipad_hkhs.png',
     type: 'mobile',
-    title: 'HKHS iPad App',
+    title: 'HKHS iPad App (Develop)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/mobile/hkhs/1.png',
       process.env.PUBLIC_URL + '/images/projects/mobile/hkhs/2.png',
@@ -103,7 +103,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/voiceup/1.png',
     type: 'mobile',
-    title: 'iPad Voiceup App',
+    title: 'iPad Voiceup App (Develop)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/mobile/voiceup/1.png',
       process.env.PUBLIC_URL + '/images/projects/mobile/voiceup/2.png',
@@ -128,58 +128,58 @@ const localData = [
       'In order to encourage people to raise their awareness of mental health, the phone booth with iPad games is created, visitors could leave their message of support; their unique sound spectrum will be then generated with  selfie as an e-card, which enable them to send to friends for sharing their cares. The first installation of iPad game will be at Jardine Strategic Meeting, and then will be displayed in different locations in the form of roadshow.',
     youtubeId: 'RrFBYSXxS8I',
   },
-  {
-    img: process.env.PUBLIC_URL + '/images/projects/mobile/twparking/mobile_twparking.png',
-    type: 'mobile',
-    title: 'TW Smart Parking Mobile App',
-    images: [
-      process.env.PUBLIC_URL + '/images/projects/mobile/twparking/1.png',
-      process.env.PUBLIC_URL + '/images/projects/mobile/twparking/2.png',
-    ],
-    responsibility: [
-      {
-        title: 'Frond-end Layout Implementation',
-        sub: ['Develop with React Native (iOS & Android)'],
-      },
-      {
-        title: 'Features',
-        sub: ['Real time vacancy', 'Enhance convenience', 'One-touch navigation'],
-      },
-    ],
-    desc:
-      'TW Smart Parking (荃易泊) app offer drivers the easiest way to reach real time car park vacancy data, parking rate and one-touch navigation to the developments in Tsuen Wan. Enhances convenience for drivers in reducing unnecessary car journeys and relieves traffic congestion. Consider different user preferences and habits, the app designed with map view and list view to facilitate drivers in different situations. It’s not limited to private car drivers to get the real time vacancy data nearby, parking rate and privileges etc. ',
-  },
-  {
-    img: process.env.PUBLIC_URL + '/images/projects/mobile/lta/mobile_lta.png',
-    type: 'mobile',
-    title: 'Lee Tung Avenue Mobile App',
-    images: [
-      process.env.PUBLIC_URL + '/images/projects/mobile/lta/1.png',
-      process.env.PUBLIC_URL + '/images/projects/mobile/lta/2.png',
-      process.env.PUBLIC_URL + '/images/projects/mobile/lta/3.png',
-    ],
-    responsibility: [
-      {
-        title: 'Frond-end Layout Implementation',
-        sub: ['Develop with React Native (iOS & Android)'],
-      },
-      {
-        title: 'Features',
-        sub: [
-          'Event & Shop information',
-          'Membership',
-          'Lantern Interactive (iBeacon)',
-          'Create own lighting show (iOT control)',
-        ],
-      },
-    ],
-    desc:
-      'Lee Tung Avenue spent a wonderful Mid-Autumn Festival with public under an impressive giant moon art installation named “museum of the Moon”. The fairy-tale romance was continued this year with a new exhibition, the “Moon Rabbit Lumiere”. 10 giant “Moon Rabbit” appeared along Lee Tung Avenue. A mobile application is developed to allow visitors to control the iconic lanterns for a truly immersive and interactive experience. A reward program “Chinese Riddle Hide and Seek” is introduced to win surprising rewards.',
-  },
+  // {
+  //   img: process.env.PUBLIC_URL + '/images/projects/mobile/twparking/mobile_twparking.png',
+  //   type: 'mobile',
+  //   title: 'TW Smart Parking Mobile App',
+  //   images: [
+  //     process.env.PUBLIC_URL + '/images/projects/mobile/twparking/1.png',
+  //     process.env.PUBLIC_URL + '/images/projects/mobile/twparking/2.png',
+  //   ],
+  //   responsibility: [
+  //     {
+  //       title: 'Frond-end Layout Implementation',
+  //       sub: ['Develop with React Native (iOS & Android)'],
+  //     },
+  //     {
+  //       title: 'Features',
+  //       sub: ['Real time vacancy', 'Enhance convenience', 'One-touch navigation'],
+  //     },
+  //   ],
+  //   desc:
+  //     'TW Smart Parking (荃易泊) app offer drivers the easiest way to reach real time car park vacancy data, parking rate and one-touch navigation to the developments in Tsuen Wan. Enhances convenience for drivers in reducing unnecessary car journeys and relieves traffic congestion. Consider different user preferences and habits, the app designed with map view and list view to facilitate drivers in different situations. It’s not limited to private car drivers to get the real time vacancy data nearby, parking rate and privileges etc. ',
+  // },
+  // {
+  //   img: process.env.PUBLIC_URL + '/images/projects/mobile/lta/mobile_lta.png',
+  //   type: 'mobile',
+  //   title: 'Lee Tung Avenue Mobile App',
+  //   images: [
+  //     process.env.PUBLIC_URL + '/images/projects/mobile/lta/1.png',
+  //     process.env.PUBLIC_URL + '/images/projects/mobile/lta/2.png',
+  //     process.env.PUBLIC_URL + '/images/projects/mobile/lta/3.png',
+  //   ],
+  //   responsibility: [
+  //     {
+  //       title: 'Frond-end Layout Implementation',
+  //       sub: ['Develop with React Native (iOS & Android)'],
+  //     },
+  //     {
+  //       title: 'Features',
+  //       sub: [
+  //         'Event & Shop information',
+  //         'Membership',
+  //         'Lantern Interactive (iBeacon)',
+  //         'Create own lighting show (iOT control)',
+  //       ],
+  //     },
+  //   ],
+  //   desc:
+  //     'Lee Tung Avenue spent a wonderful Mid-Autumn Festival with public under an impressive giant moon art installation named “museum of the Moon”. The fairy-tale romance was continued this year with a new exhibition, the “Moon Rabbit Lumiere”. 10 giant “Moon Rabbit” appeared along Lee Tung Avenue. A mobile application is developed to allow visitors to control the iconic lanterns for a truly immersive and interactive experience. A reward program “Chinese Riddle Hide and Seek” is introduced to win surprising rewards.',
+  // },
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/pandaplace/mobile_pandaplace.png',
     type: 'mobile',
-    title: 'Panda Place Mobile App',
+    title: 'Panda Place Mobile App (Develop)',
     images: [process.env.PUBLIC_URL + '/images/projects/mobile/pandaplace/1.jpg'],
     responsibility: [
       {
@@ -197,7 +197,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/mabella/mobile_fanshare.png',
     type: 'mobile',
-    title: 'Mabella Mobile App',
+    title: 'Mabella Mobile App (Maintenance)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/mobile/mabella/1.jpg',
       process.env.PUBLIC_URL + '/images/projects/mobile/mabella/2.jpg',
@@ -220,7 +220,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/shkp/mobile_shkp.png',
     type: 'mobile',
-    title: 'SHKP Mobile App',
+    title: 'SHKP Mobile App (Develop)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/mobile/shkp/1.png',
       process.env.PUBLIC_URL + '/images/projects/mobile/shkp/2.png',
@@ -243,7 +243,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/asapara/mobile_asapara.png',
     type: 'mobile',
-    title: 'Asapara Mobile App',
+    title: 'Asapara Mobile App (Develop)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/mobile/asapara/1.png',
       process.env.PUBLIC_URL + '/images/projects/mobile/asapara/2.png',
@@ -267,7 +267,7 @@ const localData = [
   {
     img: process.env.PUBLIC_URL + '/images/projects/web/foodbulous/web_foodbulous.png',
     type: 'web',
-    title: 'Foodbulous Website',
+    title: 'Foodbulous Website (Develop)',
     images: [
       process.env.PUBLIC_URL + '/images/projects/web/foodbulous/web_foodbulous.png',
       process.env.PUBLIC_URL + '/images/projects/web/foodbulous/1.png',
@@ -287,37 +287,37 @@ const localData = [
       'Foodbulous is a restaurant guide that simplifies the restaurant searching experience. Cur​ate your food decks and discover dining ideas.',
     youtubeId: 'uSGUHFum4z8',
   },
-  {
-    img: process.env.PUBLIC_URL + '/images/projects/others/multimedia/other_multimedia.png',
-    type: 'other',
-    title: 'CityU CS3483 - Multimodal Project',
-    images: [
-      process.env.PUBLIC_URL + '/images/projects/others/multimedia/1.png',
-      process.env.PUBLIC_URL + '/images/projects/others/multimedia/2.png',
-      process.env.PUBLIC_URL + '/images/projects/others/multimedia/3.png',
-      process.env.PUBLIC_URL + '/images/projects/others/multimedia/4.png',
-      process.env.PUBLIC_URL + '/images/projects/others/multimedia/5.png',
-      process.env.PUBLIC_URL + '/images/projects/others/multimedia/6.png',
-      process.env.PUBLIC_URL + '/images/projects/others/multimedia/7.png',
-    ],
-    responsibility: [
-      {
-        title: 'Frond-end Layout Implementation',
-        sub: ['Develop with Processing', 'Using Leap Motion and OpenCV'],
-      },
-      {
-        title: 'Features',
-        sub: [
-          'Easing the overuse of finger joints & pressure of the neck',
-          'Exercise with some gestures and postures',
-          'Check the gestures correctness though Leap Motion & OpenCV',
-        ],
-      },
-    ],
-    desc:
-      'There are too many factors of causing Osteoarthritis or other musculoskeletal disorders, and not every factors could be solved by IT technical, therefore the project only focus on easing the overuse of finger joints and the pressure of the neck by doing some gesture and posture, and check the correctness through Leap Motion and OpenCV.',
-    youtubeId: 'nFAorEQFcGM',
-  },
+  // {
+  //   img: process.env.PUBLIC_URL + '/images/projects/others/multimedia/other_multimedia.png',
+  //   type: 'other',
+  //   title: 'CityU CS3483 - Multimodal Project',
+  //   images: [
+  //     process.env.PUBLIC_URL + '/images/projects/others/multimedia/1.png',
+  //     process.env.PUBLIC_URL + '/images/projects/others/multimedia/2.png',
+  //     process.env.PUBLIC_URL + '/images/projects/others/multimedia/3.png',
+  //     process.env.PUBLIC_URL + '/images/projects/others/multimedia/4.png',
+  //     process.env.PUBLIC_URL + '/images/projects/others/multimedia/5.png',
+  //     process.env.PUBLIC_URL + '/images/projects/others/multimedia/6.png',
+  //     process.env.PUBLIC_URL + '/images/projects/others/multimedia/7.png',
+  //   ],
+  //   responsibility: [
+  //     {
+  //       title: 'Frond-end Layout Implementation',
+  //       sub: ['Develop with Processing', 'Using Leap Motion and OpenCV'],
+  //     },
+  //     {
+  //       title: 'Features',
+  //       sub: [
+  //         'Easing the overuse of finger joints & pressure of the neck',
+  //         'Exercise with some gestures and postures',
+  //         'Check the gestures correctness though Leap Motion & OpenCV',
+  //       ],
+  //     },
+  //   ],
+  //   desc:
+  //     'There are too many factors of causing Osteoarthritis or other musculoskeletal disorders, and not every factors could be solved by IT technical, therefore the project only focus on easing the overuse of finger joints and the pressure of the neck by doing some gesture and posture, and check the correctness through Leap Motion and OpenCV.',
+  //   youtubeId: 'nFAorEQFcGM',
+  // },
   {
     img: process.env.PUBLIC_URL + '/images/projects/others/aigame/other_aigame.png',
     type: 'other',
