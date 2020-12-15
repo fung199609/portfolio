@@ -1,14 +1,16 @@
 const localData = [
   {
-    img: process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png',
+    img: process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/mobile_festival_walk.png',
     type: 'mobile',
-    title: 'MPFA Mobile App (Develop)',
+    title: 'Festival Walk 又一城 Mobile App (Develop)',
     images: [
-      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png',
-      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/1.png',
-      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/2.png',
-      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/3.png',
-      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/4.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/mobile_festival_walk.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/1.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/2.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/3.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/4.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/5.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/6.png',
     ],
     responsibility: [
       {
@@ -17,11 +19,36 @@ const localData = [
       },
       {
         title: 'Features',
-        sub: ['Retirement planning calculator', 'Spending tracker'],
+        sub: ['Enhance customers\' shopping experience', 'Enrich of customer database for target marketing'],
       },
     ],
     desc:
-      'The MPFA has launched a mobile app that enables you to use your phone for convenient money management and retirement planning. With its Retirement Planning Calculator and Spending Tracker, the mobile app keeps you on track to achieve your retirement goals gradually by helping you calculate your retirement needs, set a savings goal, and manage your money wisely.',
+      'In order to enhance the customers’ shopping experiences, the new app is launched with the first-ever loyalty programme of Festival Walk. Customers can register as member via the app to enjoy a wide range of exclusive privileges, discover the mall more convenient, to know the availability of parking space by getting real-time information and more.\n\nFestival Walk aims to build a shoppers\' database to facilitate deep-dive data analytics for enabling target marketing. A tenant app is also built for tenant use to support marketing campaign activities. The new development of the loyalty program via Customer Relationship Management (CRM) and Application Programming Interface (API) making data sharing more efficient, accurately obtain on customers’ statistics for a better understanding on customers’ spending behavior.',
+  },
+  {
+    img: process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png',
+    type: 'mobile',
+    title: 'MPFA Retirement Planning Mobile App (Develop)',
+    images: [
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/mobile_mpfa.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/1.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/2.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/3.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/4.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/mpfa/5.png',
+    ],
+    responsibility: [
+      {
+        title: 'Frond-end Layout Implementation',
+        sub: ['Develop with React-Native (iOS & Android)', 'Layout Revamp'],
+      },
+      {
+        title: 'Features',
+        sub: ['Mobile App Revamp, CRM, Promotions, Motion Graphics', 'Retirement planning calculator', 'Spending tracker'],
+      },
+    ],
+    desc:
+      'The MPFA is a statutory body established since 1998, their mission is to regulate and supervise privately managed provident fund schemes as well as to educate the working population about saving for retirement and the role of the MPF System as one of the pillars supporting retirement living.\n\n\n\nThe MPFA has launched a mobile app - 「樂享退休GPS」 , a retirement planning mobile app to help public reach their retirement savings goal step by step. The mobile app keeps you on track to achieve your retirement goals gradually by helping you calculate your retirement needs, set a saving goal, and manage your money wisely.',
     youtubeId: 'mKrG-eHg_Oo',
   },
   {
@@ -149,33 +176,33 @@ const localData = [
   //   desc:
   //     'TW Smart Parking (荃易泊) app offer drivers the easiest way to reach real time car park vacancy data, parking rate and one-touch navigation to the developments in Tsuen Wan. Enhances convenience for drivers in reducing unnecessary car journeys and relieves traffic congestion. Consider different user preferences and habits, the app designed with map view and list view to facilitate drivers in different situations. It’s not limited to private car drivers to get the real time vacancy data nearby, parking rate and privileges etc. ',
   // },
-  // {
-  //   img: process.env.PUBLIC_URL + '/images/projects/mobile/lta/mobile_lta.png',
-  //   type: 'mobile',
-  //   title: 'Lee Tung Avenue Mobile App',
-  //   images: [
-  //     process.env.PUBLIC_URL + '/images/projects/mobile/lta/1.png',
-  //     process.env.PUBLIC_URL + '/images/projects/mobile/lta/2.png',
-  //     process.env.PUBLIC_URL + '/images/projects/mobile/lta/3.png',
-  //   ],
-  //   responsibility: [
-  //     {
-  //       title: 'Frond-end Layout Implementation',
-  //       sub: ['Develop with React Native (iOS & Android)'],
-  //     },
-  //     {
-  //       title: 'Features',
-  //       sub: [
-  //         'Event & Shop information',
-  //         'Membership',
-  //         'Lantern Interactive (iBeacon)',
-  //         'Create own lighting show (iOT control)',
-  //       ],
-  //     },
-  //   ],
-  //   desc:
-  //     'Lee Tung Avenue spent a wonderful Mid-Autumn Festival with public under an impressive giant moon art installation named “museum of the Moon”. The fairy-tale romance was continued this year with a new exhibition, the “Moon Rabbit Lumiere”. 10 giant “Moon Rabbit” appeared along Lee Tung Avenue. A mobile application is developed to allow visitors to control the iconic lanterns for a truly immersive and interactive experience. A reward program “Chinese Riddle Hide and Seek” is introduced to win surprising rewards.',
-  // },
+  {
+    img: process.env.PUBLIC_URL + '/images/projects/mobile/lta/mobile_lta.png',
+    type: 'mobile',
+    title: 'Lee Tung Avenue Mobile App',
+    images: [
+      process.env.PUBLIC_URL + '/images/projects/mobile/lta/1.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/lta/2.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/lta/3.png',
+    ],
+    responsibility: [
+      {
+        title: 'Frond-end Layout Implementation',
+        sub: ['Develop with React Native (iOS & Android)'],
+      },
+      {
+        title: 'Features',
+        sub: [
+          'Event & Shop information',
+          'Membership',
+          'Lantern Interactive (iBeacon)',
+          'Create own lighting show (iOT control)',
+        ],
+      },
+    ],
+    desc:
+      'Lee Tung Avenue spent a wonderful Mid-Autumn Festival with public under an impressive giant moon art installation named “museum of the Moon”. The fairy-tale romance was continued this year with a new exhibition, the “Moon Rabbit Lumiere”. 10 giant “Moon Rabbit” appeared along Lee Tung Avenue. A mobile application is developed to allow visitors to control the iconic lanterns for a truly immersive and interactive experience. A reward program “Chinese Riddle Hide and Seek” is introduced to win surprising rewards.',
+  },
   {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/pandaplace/mobile_pandaplace.png',
     type: 'mobile',

@@ -1,10 +1,22 @@
 const localData = {
   works: [
     {
+      img: process.env.PUBLIC_URL + "/images/layouts/profile/esdlife.jpeg",
+      role: "Mobile Apps Developer (Android)",
+      company: "Esdlife",
+      time: "2020 Aug - Now",
+      desc: [
+        "• Under the DBS Omi team to develop Android apps",
+        "• Developed, maintained and supported mobile application using Java and Kotlin",
+        "• Handle different banking security and client problems",
+        "• Testing project with unit test case & deploying project with CI/CD Pineline (Jenkins)"
+      ]
+    },
+    {
       img: process.env.PUBLIC_URL + "/images/layouts/profile/cccdi.jpg",
-      role: "Mobile Apps Developer",
+      role: "Mobile Apps Developer (Android & iOS)",
       company: "cccdi ltd.",
-      time: "2018 Aug - Now",
+      time: "2018 Aug - 2020 Aug",
       desc: [
         "• Developed, maintained and supported mobile application using React-Native, Java, Objective-c, ionic and Flutter.",
         "• Analyze different problems and situation to ensure the structure and quality of code for system can fulfil user"
