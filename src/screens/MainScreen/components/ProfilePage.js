@@ -146,12 +146,9 @@ class ProfilePage extends Component {
           <Container>
             <Row style={{ marginTop: 20, marginBottom: isMobile ? 30 : 80 }}>
               <Col md={2} xs={1}></Col>
-              <Col md={8} xs={10} style={{ textAlign: "justify" }}>
+              <Col md={8} xs={10} style={{ textAlign: "center" }}>
                 <span style={{ fontWeight: 300 }}>
-                  A Mobile Apps Developer with an experience iOS and Android
-                  background of 2 years. A wide range of knowledge in meeting
-                  different requirements, designing and maintenance application
-                  based on different situation.
+                3 Years Working Experience / Android & iOS Native / React Native / Flutter
                 </span>
               </Col>
               <Col md={2} xs={1}></Col>

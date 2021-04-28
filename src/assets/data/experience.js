@@ -6,10 +6,11 @@ const localData = {
       company: "Esdlife",
       time: "2020 Aug - Now",
       desc: [
-        "• Under the DBS Omi team to develop Android apps",
-        "• Developed, maintained and supported mobile application using Java and Kotlin",
-        "• Handle different banking security and client problems",
-        "• Testing project with unit test case & deploying project with CI/CD Pineline (Jenkins)"
+        "• Under DBS Card + team to develop Android apps",
+        "• Handle banking security and client problems",
+        "• POC with different new possible features",
+        "• Testing project with unit test case & deploying project with CI/CD Pineline (Jenkins)",
+        "• Mobile application using Java, Kotlin, and React-Native"
       ]
     },
     {
@@ -18,8 +19,9 @@ const localData = {
       company: "cccdi ltd.",
       time: "2018 Aug - 2020 Aug",
       desc: [
-        "• Developed, maintained and supported mobile application using React-Native, Java, Objective-c, ionic and Flutter.",
-        "• Analyze different problems and situation to ensure the structure and quality of code for system can fulfil user"
+        "• Handle different onsite & cross platform project",
+        "• Communicate with Designer, Backend developer and project manager",
+        "• Mobile application using Java, Objective-c and React-Native"
       ]
     },
     {
@@ -28,8 +30,8 @@ const localData = {
       company: "InnoPage",
       time: "2017 Jul - 2018 Apr",
       desc: [
-        "• Developed, maintained and supported mobile application using Java and Swift.",
-        "• Analyze user requirement and ensure standards, procedures, and methodologies in the development life cycle are followed"
+        "• Full Stack Placement Developer",
+        "• Mobile / web / backend application using Java, Swift, Node.js & JavaScript"
       ]
     },
     {
@@ -38,8 +40,8 @@ const localData = {
       company: "HKBackpackers (NGO)",
       time: "2015 Jul - 2015 Aug",
       desc: [
-        "• Design an android application that help backpackers to create event, communicate during they are travelling",
-        "• Work in group"
+        "• Build an Android Application",
+        "• Help backpackers create activities and communicate"
       ]
     },
     {

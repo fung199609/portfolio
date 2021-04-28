@@ -107,7 +107,7 @@ class MainScreen extends React.Component {
                 }}
               >
                 {
-                  "A Mobile Apps Developer with an experience iOS and Android background of 2 years. A wide range of knowledge in meeting different requirements, designing and maintenance application based on different situation."
+                  "3 Years Working Experience / Android & iOS Native / React Native / Flutter"
                 }
               </span>
             </Col>

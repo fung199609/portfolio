@@ -1,10 +1,38 @@
 const localData = [
   {
+    img: process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg',
+    type: 'mobile',
+    title: 'DBS Card+ (Develop & Maintenance)',
+    images: [
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/1.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/2.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/3.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/4.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/5.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/6.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/7.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/8.png',
+    ],
+    responsibility: [
+      {
+        title: 'Frond-end Layout Implementation',
+        sub: ['Develop with Native (Android)', 'Layout Revamp', 'Handle all mobile security', 'Work in a large team'],
+      },
+      {
+        title: 'Features',
+        sub: ['Seamless and speedy credit card and loan application from DBS Omni Mobile App', 'Adopt more innovative functions to elevate the user experience'],
+      },
+    ],
+    desc:
+      'In response to the ever-changing e-Banking era, we revamped the award-winning mobile app – DBS Omni to DBS Card+ HK for DBS Bank (Hong Kong) and brought it to a whole new level. Apart from the seamless and speedy credit card and loan application from DBS Omni Mobile App, we uplift the user interface (UI) and adopt more innovative functions to elevate the user experience.',
+  },
+  {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/mobile_festival_walk.png',
     type: 'mobile',
     title: 'Festival Walk 又一城 Mobile App (Develop)',
     images: [
-      process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/mobile_festival_walk.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_card_plus/mobile_festival_walk.png',
       process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/1.png',
       process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/2.png',
       process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/3.png',
