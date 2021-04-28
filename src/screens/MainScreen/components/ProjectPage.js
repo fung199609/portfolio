@@ -207,7 +207,7 @@ class ProjectPage extends Component {
             {this.state.selectedItem && this.state.selectedItem.youtubeId && (
               <YouTube videoId={this.state.selectedItem.youtubeId} opts={{ width: '100%' }} />
             )}
-            <Carousel interval={0} style={{ marginTop: 40, marginBottom: 40 }}>
+            <Carousel interval={null} style={{ marginTop: 40, marginBottom: 40 }}>
               {carouselItems}
             </Carousel>
             <p style={{ fontSize: 18, fontWeight: 700 }}>Description</p>
