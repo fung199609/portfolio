@@ -28,6 +28,31 @@ const localData = [
       'In response to the ever-changing e-Banking era, we revamped the award-winning mobile app – DBS Omni to DBS Card+ HK for DBS Bank (Hong Kong) and brought it to a whole new level. Apart from the seamless and speedy credit card and loan application from DBS Omni Mobile App, we uplift the user interface (UI) and adopt more innovative functions to elevate the user experience.',
   },
   {
+    img: process.env.PUBLIC_URL + '/images/projects/mobile/dbs_home_360/dbs_home_360.jpeg',
+    type: 'mobile',
+    title: 'DBS Home360 (Maintenance)',
+    images: [
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_home_360/1.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_home_360/2.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_home_360/3.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_home_360/4.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_home_360/5.png',
+      process.env.PUBLIC_URL + '/images/projects/mobile/dbs_home_360/6.png',
+    ],
+    responsibility: [
+      {
+        title: 'Frond-end Layout Implementation',
+        sub: ['Develop with React Native', 'Properties for Me and Search for Properties', 'Work in a large team'],
+      },
+      {
+        title: 'Features',
+        sub: ['View properties anytime anywhere with VR', 'Get an instant approval for mortgage in a minute', 'Assess your mortgage affordability right away', 'Home budgeting at a glance', 'Find out your property value instantly'],
+      },
+    ],
+    desc:
+      'You can access DBS Home360 wherever your mobile device connects to the Internet. Please be reminded that data roaming charges may apply and the information is for Hong Kong market only. For details of data roaming charges, please contact your telecommunication service providers.',
+  },
+  {
     img: process.env.PUBLIC_URL + '/images/projects/mobile/festivalwalk/mobile_festival_walk.png',
     type: 'mobile',
     title: 'Festival Walk 又一城 Mobile App (Develop)',
