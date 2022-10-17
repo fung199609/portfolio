@@ -11,7 +11,7 @@
     "resumes": {
       "works": [
         {
-          "img": "http://localhost:3000/images/layouts/profile/dowjones.jpeg",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/dowjones.jpeg",
           "role": "Software Engineer",
           "company": "Dowjones",
           "time": "2021 Jul - Now",
@@ -23,7 +23,7 @@
           ]
         },
         {
-          "img": "http://localhost:3000/images/layouts/profile/esdlife.jpeg",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/esdlife.jpeg",
           "role": "Mobile Apps Developer (Android)",
           "company": "Esdlife",
           "time": "2020 Aug - Now",
@@ -35,7 +35,7 @@
           ]
         },
         {
-          "img": "http://localhost:3000/images/layouts/profile/cccdi.jpg",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/cccdi.jpg",
           "role": "Mobile Apps Developer (Android & iOS)",
           "company": "cccdi ltd.",
           "time": "2018 Aug - 2020 Aug",
@@ -46,7 +46,7 @@
           ]
         },
         {
-          "img": "http://localhost:3000/images/layouts/profile/innopage.png",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/innopage.png",
           "role": "Mobile Apps Developer (Placement)",
           "company": "InnoPage",
           "time": "2017 Jul - 2018 Apr",
@@ -56,7 +56,7 @@
           ]
         },
         {
-          "img": "http://localhost:3000/images/layouts/profile/hkbackpacker.jpeg",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/hkbackpacker.jpeg",
           "role": "Mobile Apps Developer (Placement)",
           "company": "HKBackpackers (NGO)",
           "time": "2015 Jul - 2015 Aug",
@@ -66,7 +66,7 @@
           ]
         },
         {
-          "img": "http://localhost:3000/images/layouts/profile/cityu.png",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/cityu.png",
           "role": "Degree in Computer Science",
           "company": "City University Of Hong Kong",
           "time": "2016 - 2018",
@@ -75,7 +75,7 @@
           ]
         },
         {
-          "img": "http://localhost:3000/images/layouts/profile/ive.png",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/ive.png",
           "role": "High Diploma in Software Engineering",
           "company": "Hong kong Institute of Vocational Education (Tsing Yi)",
           "time": "2014 - 2016",
@@ -86,7 +86,7 @@
       ],
       "skills": [
         {
-          "img": "http://localhost:3000/images/layouts/profile/mobile.jpg",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/mobile.jpg",
           "name": "Frontend",
           "desc": [
             "Android - Java/Kotlin",
@@ -96,7 +96,7 @@
           ]
         },
         {
-          "img": "http://localhost:3000/images/layouts/profile/server.jpg",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/server.jpg",
           "name": "Backend",
           "desc": [
             "Node.js",
@@ -105,7 +105,7 @@
           ]
         },
         {
-          "img": "http://localhost:3000/images/layouts/profile/others.jpg",
+          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/others.jpg",
           "name": "Others",
           "desc": [
             "Unit Testing (JUnit)",
@@ -119,19 +119,19 @@
     },
     "projects": [
       {
-        "img": "http://localhost:3000/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
         "type": "mobile",
         "title": "DBS Card+ (Develop & Maintenance)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/1.png",
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/2.png",
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/3.png",
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/4.png",
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/5.png",
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/6.png",
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/7.png",
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/8.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/4.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/5.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/6.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/7.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/8.png"
         ],
         "responsibility": [
           {
@@ -154,16 +154,16 @@
         "desc": "In response to the ever-changing e-Banking era, we revamped the award-winning mobile app – DBS Omni to DBS Card+ HK for DBS Bank (Hong Kong) and brought it to a whole new level. Apart from the seamless and speedy credit card and loan application from DBS Omni Mobile App, we uplift the user interface (UI) and adopt more innovative functions to elevate the user experience."
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/dbs_home_360/dbs_home_360.jpeg",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/dbs_home_360.jpeg",
         "type": "mobile",
         "title": "DBS Home360 (Maintenance)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/dbs_home_360/1.png",
-          "http://localhost:3000/images/projects/mobile/dbs_home_360/2.png",
-          "http://localhost:3000/images/projects/mobile/dbs_home_360/3.png",
-          "http://localhost:3000/images/projects/mobile/dbs_home_360/4.png",
-          "http://localhost:3000/images/projects/mobile/dbs_home_360/5.png",
-          "http://localhost:3000/images/projects/mobile/dbs_home_360/6.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/4.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/5.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/6.png"
         ],
         "responsibility": [
           {
@@ -188,17 +188,17 @@
         "desc": "You can access DBS Home360 wherever your mobile device connects to the Internet. Please be reminded that data roaming charges may apply and the information is for Hong Kong market only. For details of data roaming charges, please contact your telecommunication service providers."
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/festivalwalk/mobile_festival_walk.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/mobile_festival_walk.png",
         "type": "mobile",
         "title": "Festival Walk 又一城 Mobile App (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/dbs_card_plus/mobile_festival_walk.png",
-          "http://localhost:3000/images/projects/mobile/festivalwalk/1.png",
-          "http://localhost:3000/images/projects/mobile/festivalwalk/2.png",
-          "http://localhost:3000/images/projects/mobile/festivalwalk/3.png",
-          "http://localhost:3000/images/projects/mobile/festivalwalk/4.png",
-          "http://localhost:3000/images/projects/mobile/festivalwalk/5.png",
-          "http://localhost:3000/images/projects/mobile/festivalwalk/6.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/mobile_festival_walk.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/4.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/5.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/6.png"
         ],
         "responsibility": [
           {
@@ -219,16 +219,16 @@
         "desc": "In order to enhance the customers’ shopping experiences, the new app is launched with the first-ever loyalty programme of Festival Walk. Customers can register as member via the app to enjoy a wide range of exclusive privileges, discover the mall more convenient, to know the availability of parking space by getting real-time information and more.\n\nFestival Walk aims to build a shoppers\" database to facilitate deep-dive data analytics for enabling target marketing. A tenant app is also built for tenant use to support marketing campaign activities. The new development of the loyalty program via Customer Relationship Management (CRM) and Application Programming Interface (API) making data sharing more efficient, accurately obtain on customers’ statistics for a better understanding on customers’ spending behavior."
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/mpfa/mobile_mpfa.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/mobile_mpfa.png",
         "type": "mobile",
         "title": "MPFA Retirement Planning Mobile App (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/mpfa/mobile_mpfa.png",
-          "http://localhost:3000/images/projects/mobile/mpfa/1.png",
-          "http://localhost:3000/images/projects/mobile/mpfa/2.png",
-          "http://localhost:3000/images/projects/mobile/mpfa/3.png",
-          "http://localhost:3000/images/projects/mobile/mpfa/4.png",
-          "http://localhost:3000/images/projects/mobile/mpfa/5.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/mobile_mpfa.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/4.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/5.png"
         ],
         "responsibility": [
           {
@@ -251,14 +251,14 @@
         "youtubeId": "mKrG-eHg_Oo"
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/bea/mobile_bea.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/bea/mobile_bea.png",
         "type": "mobile",
         "title": "BEA Mobile App (Maintenance)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/bea/1.jpg",
-          "http://localhost:3000/images/projects/mobile/bea/2.jpg",
-          "http://localhost:3000/images/projects/mobile/bea/3.jpg",
-          "http://localhost:3000/images/projects/mobile/bea/4.jpg"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/bea/1.jpg",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/bea/2.jpg",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/bea/3.jpg",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/bea/4.jpg"
         ],
         "responsibility": [
           {
@@ -275,14 +275,14 @@
         "youtubeId": "9R2w4t8hBns"
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/boc/1.jpg",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/boc/1.jpg",
         "type": "mobile",
         "title": "BOC Payment App (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/boc/1.jpg",
-          "http://localhost:3000/images/projects/mobile/boc/2.png",
-          "http://localhost:3000/images/projects/mobile/boc/3.png",
-          "http://localhost:3000/images/projects/mobile/boc/4.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/boc/1.jpg",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/boc/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/boc/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/boc/4.png"
         ],
         "responsibility": [
           {
@@ -303,13 +303,13 @@
         "youtubeId": "c6ijxrVVpxM"
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/hkhs/ipad_hkhs.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/ipad_hkhs.png",
         "type": "mobile",
         "title": "HKHS iPad App (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/hkhs/1.png",
-          "http://localhost:3000/images/projects/mobile/hkhs/2.png",
-          "http://localhost:3000/images/projects/mobile/hkhs/3.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/3.png"
         ],
         "responsibility": [
           {
@@ -330,14 +330,14 @@
         "youtubeId": "ndMDe9fiCc0"
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/voiceup/1.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/1.png",
         "type": "mobile",
         "title": "iPad Voiceup App (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/voiceup/1.png",
-          "http://localhost:3000/images/projects/mobile/voiceup/2.png",
-          "http://localhost:3000/images/projects/mobile/voiceup/3.png",
-          "http://localhost:3000/images/projects/mobile/voiceup/4.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/4.png"
         ],
         "responsibility": [
           {
@@ -359,12 +359,12 @@
         "youtubeId": "RrFBYSXxS8I"
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/twparking/mobile_twparking.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/mobile_twparking.png",
         "type": "mobile",
         "title": "TW Smart Parking Mobile App",
         "images": [
-          "http://localhost:3000/images/projects/mobile/twparking/1.png",
-          "http://localhost:3000/images/projects/mobile/twparking/2.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/2.png"
         ],
         "responsibility": [
           {
@@ -385,13 +385,13 @@
         "desc": "TW Smart Parking (荃易泊) app offer drivers the easiest way to reach real time car park vacancy data, parking rate and one-touch navigation to the developments in Tsuen Wan. Enhances convenience for drivers in reducing unnecessary car journeys and relieves traffic congestion. Consider different user preferences and habits, the app designed with map view and list view to facilitate drivers in different situations. It’s not limited to private car drivers to get the real time vacancy data nearby, parking rate and privileges etc. "
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/lta/mobile_lta.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/lta/mobile_lta.png",
         "type": "mobile",
         "title": "Lee Tung Avenue Mobile App",
         "images": [
-          "http://localhost:3000/images/projects/mobile/lta/1.png",
-          "http://localhost:3000/images/projects/mobile/lta/2.png",
-          "http://localhost:3000/images/projects/mobile/lta/3.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/lta/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/lta/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/lta/3.png"
         ],
         "responsibility": [
           {
@@ -413,11 +413,11 @@
         "desc": "Lee Tung Avenue spent a wonderful Mid-Autumn Festival with public under an impressive giant moon art installation named “museum of the Moon”. The fairy-tale romance was continued this year with a new exhibition, the “Moon Rabbit Lumiere”. 10 giant “Moon Rabbit” appeared along Lee Tung Avenue. A mobile application is developed to allow visitors to control the iconic lanterns for a truly immersive and interactive experience. A reward program “Chinese Riddle Hide and Seek” is introduced to win surprising rewards."
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/pandaplace/mobile_pandaplace.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/pandaplace/mobile_pandaplace.png",
         "type": "mobile",
         "title": "Panda Place Mobile App (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/pandaplace/1.jpg"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/pandaplace/1.jpg"
         ],
         "responsibility": [
           {
@@ -438,14 +438,14 @@
         "desc": "The client would like to put the membership programme functions online, allowing the customers to check their points, redemption record, and reserve gifts online anytime and anywhere. The previous CRM system were not capable to support on the increasing of needs, therefore, we manage the customers’ data migration and integrated the new revamped mobile apps to our CCCRM. It is a big improvement in their mobile apps."
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/mabella/mobile_fanshare.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/mobile_fanshare.png",
         "type": "mobile",
         "title": "Mabella Mobile App (Maintenance)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/mabella/1.jpg",
-          "http://localhost:3000/images/projects/mobile/mabella/2.jpg",
-          "http://localhost:3000/images/projects/mobile/mabella/3.png",
-          "http://localhost:3000/images/projects/mobile/mabella/4.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/1.jpg",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/2.jpg",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/4.png"
         ],
         "responsibility": [
           {
@@ -466,13 +466,13 @@
         "desc": "A “fanShare” mobile application was developed in a clear User Interface (UI) design, which is easy and with clear instruction to use. With secure privacy protection, customer’s information in the transaction procedure is under restricted function. The app not only provide online shopping and flash sale, user can browser extra information of the product by QR code function."
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/shkp/mobile_shkp.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/mobile_shkp.png",
         "type": "mobile",
         "title": "SHKP Mobile App (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/shkp/1.png",
-          "http://localhost:3000/images/projects/mobile/shkp/2.png",
-          "http://localhost:3000/images/projects/mobile/shkp/3.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/3.png"
         ],
         "responsibility": [
           {
@@ -494,14 +494,14 @@
         "youtubeId": "wVqsla99-J4"
       },
       {
-        "img": "http://localhost:3000/images/projects/mobile/asapara/mobile_asapara.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/mobile_asapara.png",
         "type": "mobile",
         "title": "Asapara Mobile App (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/mobile/asapara/1.png",
-          "http://localhost:3000/images/projects/mobile/asapara/2.png",
-          "http://localhost:3000/images/projects/mobile/asapara/3.png",
-          "http://localhost:3000/images/projects/mobile/asapara/4.png"
+          "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/4.png"
         ],
         "responsibility": [
           {
@@ -522,13 +522,13 @@
         "youtubeId": "RCe0SEz03r8"
       },
       {
-        "img": "http://localhost:3000/images/projects/web/foodbulous/web_foodbulous.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/web_foodbulous.png",
         "type": "web",
         "title": "Foodbulous Website (Develop)",
         "images": [
-          "http://localhost:3000/images/projects/web/foodbulous/web_foodbulous.png",
-          "http://localhost:3000/images/projects/web/foodbulous/1.png",
-          "http://localhost:3000/images/projects/web/foodbulous/2.png"
+          "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/web_foodbulous.png",
+          "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/2.png"
         ],
         "responsibility": [
           {
@@ -549,17 +549,17 @@
         "youtubeId": "uSGUHFum4z8"
       },
       {
-        "img": "http://localhost:3000/images/projects/others/multimedia/other_multimedia.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/others/multimedia/other_multimedia.png",
         "type": "other",
         "title": "CityU CS3483 - Multimodal Project",
         "images": [
-          "http://localhost:3000/images/projects/others/multimedia/1.png",
-          "http://localhost:3000/images/projects/others/multimedia/2.png",
-          "http://localhost:3000/images/projects/others/multimedia/3.png",
-          "http://localhost:3000/images/projects/others/multimedia/4.png",
-          "http://localhost:3000/images/projects/others/multimedia/5.png",
-          "http://localhost:3000/images/projects/others/multimedia/6.png",
-          "http://localhost:3000/images/projects/others/multimedia/7.png"
+          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/3.png",
+          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/4.png",
+          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/5.png",
+          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/6.png",
+          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/7.png"
         ],
         "responsibility": [
           {
@@ -582,13 +582,13 @@
         "youtubeId": "nFAorEQFcGM"
       },
       {
-        "img": "http://localhost:3000/images/projects/others/aigame/other_aigame.png",
+        "img": "https://fung199609.github.io/portfolio/images/projects/others/aigame/other_aigame.png",
         "type": "other",
         "title": "CityU CS4386 - AI Game",
         "images": [
-          "http://localhost:3000/images/projects/others/aigame/1.png",
-          "http://localhost:3000/images/projects/others/aigame/2.png",
-          "http://localhost:3000/images/projects/others/aigame/3.png"
+          "https://fung199609.github.io/portfolio/images/projects/others/aigame/1.png",
+          "https://fung199609.github.io/portfolio/images/projects/others/aigame/2.png",
+          "https://fung199609.github.io/portfolio/images/projects/others/aigame/3.png"
         ],
         "responsibility": [
           {
