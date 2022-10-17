@@ -1,6 +1,5 @@
 import React, { Component, Fragment } from "react";
 import { Container, Row, Col, Image, Card } from "react-bootstrap";
-import localData from "../../../assets/data/experience";
 import { isMobile } from "react-device-detect";
 
 class ProfilePage extends Component {
@@ -9,6 +8,7 @@ class ProfilePage extends Component {
   }
 
   _renderWorkItem = () => {
+    const localData = this.props.resumes;
     return localData.works.map((item, index) => {
       return (
         <Row style={{ marginTop: index === 0 ? 30 : 0, position: "relative" }}>
@@ -71,6 +71,7 @@ class ProfilePage extends Component {
   };
 
   _renderSkills = () => {
+    const localData = this.props.resumes;
     return localData.skills.map(item => {
       return (
         <Col md={4} xs={12} style={{ marginBottom: 40 }}>
@@ -148,7 +149,7 @@ class ProfilePage extends Component {
               <Col md={2} xs={1}></Col>
               <Col md={8} xs={10} style={{ textAlign: "center" }}>
                 <span style={{ fontWeight: 300 }}>
-                3 Years Working Experience / Android & iOS Native / React Native / Flutter
+                {this.props.resumes.desc}
                 </span>
               </Col>
               <Col md={2} xs={1}></Col>

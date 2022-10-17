@@ -5,15 +5,10 @@ import {
   Col,
   Image,
   Card,
-  ListGroup,
-  Button,
   Modal,
-  Carousel,
-  ModalTitle,
-  Row,
+  Carousel
 } from 'react-bootstrap';
 import FlipMove from 'react-flip-move';
-import localData from '../../../assets/data/projects';
 import CategoryGroup from '../../../components/CategoryGroup';
 import YouTube from 'react-youtube';
 
@@ -38,7 +33,7 @@ class ProjectPage extends Component {
   };
 
   _renderImages = () => {
-    let tmpData = localData;
+    let tmpData = this.props.projects;
     switch (this.state.index) {
       case 1:
         tmpData = tmpData.filter(item => item.type === 'mobile');

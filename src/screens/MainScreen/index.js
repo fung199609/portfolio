@@ -4,12 +4,6 @@ import {
   Container,
   Col,
   Image,
-  Card,
-  ListGroup,
-  Button,
-  Modal,
-  Carousel,
-  ModalTitle,
   Row,
 } from "react-bootstrap";
 import NavBar from "../../components/NavBar";
@@ -23,10 +17,14 @@ class MainScreen extends React.Component {
       isTypeComplete: false,
       loading: true,
       pageIndex: 0,
+      resumes: null,
+      projects: null,
+      information: null
     };
     this.homeRef = React.createRef();
     this.projectRef = React.createRef();
     this.contactRef = React.createRef();
+    this._fetchData();
   }
 
   _onClickNav = (index) => {
@@ -76,6 +74,7 @@ class MainScreen extends React.Component {
   };
 
   _renderContact = () => {
+    const contactData = this.state.information;
     return (
       <div
         ref={this.contactRef}
@@ -91,7 +90,7 @@ class MainScreen extends React.Component {
           textAlign: "center",
         }}
       >
-        <span style={{ fontSize: 25, marginBottom: 20 }}>Andy Chan</span>
+        <span style={{ fontSize: 25, marginBottom: 20 }}>{contactData.name}</span>
         <Container>
           <Row>
             <Col md={2} xs={1}></Col>
@@ -99,7 +98,6 @@ class MainScreen extends React.Component {
               <span
                 style={{
                   marginBottom: 20,
-                  // width: md.mobile() ? "90%" : "65%",
                   lineHeight: "30px",
                   fontWeight: 300,
                   fontSize: "16px",
@@ -107,7 +105,7 @@ class MainScreen extends React.Component {
                 }}
               >
                 {
-                  "3 Years Working Experience / Android & iOS Native / React Native / Flutter"
+                  contactData.desc
                 }
               </span>
             </Col>
@@ -130,7 +128,7 @@ class MainScreen extends React.Component {
             height={40}
             src={process.env.PUBLIC_URL + "/images/layouts/email_icon.png"}
             onClick={() => {
-              window.location.href = "mailto:fung199609@gmail.com";
+              window.location.href = contactData.contact.email;
             }}
           />
           <Image
@@ -140,7 +138,7 @@ class MainScreen extends React.Component {
             src={process.env.PUBLIC_URL + "/images/layouts/linkedin_icon.png"}
             onClick={() => {
               window.open(
-                "https://www.linkedin.com/in/tsz-fung-chan-629293158/"
+                contactData.contact.linkedin
               );
             }}
           />
@@ -150,13 +148,27 @@ class MainScreen extends React.Component {
             height={40}
             src={process.env.PUBLIC_URL + "/images/layouts/telegram_icon.png"}
             onClick={() => {
-              alert("Coming Soon");
+              window.location.href = contactData.contact.tg;
             }}
           />
         </div>
       </div>
     );
   };
+
+  _fetchData = async() => {
+    try {
+      let response = await fetch('http://localhost:3000/portfolio.json');
+      let jsonResponse = await response.json();
+      this.setState({
+        resumes: jsonResponse.resumes,
+        projects: jsonResponse.projects,
+        information: jsonResponse.information
+      })
+    } catch (err) {
+      console.log(err);
+    }
+  }
 
   render() {
     return (
@@ -169,25 +181,15 @@ class MainScreen extends React.Component {
       >
         <script src="https://unpkg.com/react/umd/react.production.min.js" />
         {!this.state.loading && (
-          <React.Fragment>
-            {/* <NavBar
-              title="PORTFOLIO"
-              navTextArr={["PROJECTS", "PROFILE", "RESUME"]}
-              navUrlArr={[
-                "",
-                "",
-                "https://docs.google.com/uc?export=download&id=1NerAvSZ7BNIS1iXrO66tVNhgnkSSHfLF",
-              ]}
-              onClickNav={this._onClickNav}
-            /> */}
+          <React.Fragment> 
             <NavBar
               title="PORTFOLIO"
               navTextArr={["PROJECTS", "PROFILE"]}
               navUrlArr={["", ""]}
               onClickNav={this._onClickNav}
             />
-            {this.state.pageIndex === 0 && <ProjectPage />}
-            {this.state.pageIndex === 1 && <ProfilePage />}
+            {this.state.pageIndex === 0 && <ProjectPage projects={this.state.projects}/>}
+            {this.state.pageIndex === 1 && <ProfilePage resumes={this.state.resumes}/>}
             {this.state.pageIndex === 0 && this._renderContact()}
           </React.Fragment>
         )}
