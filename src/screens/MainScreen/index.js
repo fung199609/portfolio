@@ -158,7 +158,7 @@ class MainScreen extends React.Component {
 
   _fetchData = async() => {
     try {
-      let response = await fetch('http://localhost:3000/portfolio.json');
+      let response = await fetch('https://fung199609.github.io/portfolio/portfolio.json');
       let jsonResponse = await response.json();
       this.setState({
         resumes: jsonResponse.resumes,
