@@ -1,18 +1,12 @@
 import React, { Component } from "react";
 import { Button } from "react-bootstrap";
+import styles from "./styles/CategoryButton"
 
 class CategoryButton extends Component {
   render() {
     return (
       <Button
-        style={{
-          borderRadius: 20,
-          marginLeft: 10,
-          marginRight: 10,
-          paddingLeft: 20,
-          paddingRight: 20,
-          fontSize: 13
-        }}
+        style={styles.categoryButton}
         onClick={this.props.onClick}
         active={this.props.active}
         variant="outline-dark"
@@ -24,7 +18,7 @@ class CategoryButton extends Component {
 }
 
 CategoryButton.defaultProps = {
-  onClick: () => {},
+  onClick: () => { },
   active: false,
   text: ""
 };

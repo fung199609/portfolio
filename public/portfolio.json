@@ -1,613 +1,609 @@
 {
-    "information": {
-        "name": "Andy Chan",
-        "desc": "4 Years Working Experience / Android & iOS Native / React Native",
-        "contact": {
-            "email": "mailto:fung199609@gmail.com",
-            "linkedin": "https://www.linkedin.com/in/tsz-fung-chan-629293158/",
-            "tg": "https://telegram.me/fung8786"
-        }
-    },
-    "resumes": {
-      "works": [
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/dowjones.jpeg",
-          "role": "Software Engineer",
-          "company": "Dowjones",
-          "time": "2021 Jul - Now",
-          "desc": [
-            "• Participate in large-scale mobile apps (MarketWatch, Barrons, Financial News)",
-            "• Cooperate with teams from different global foreign countries",
-            "• Focus on coding quality and structure design",
-            "• Testing project with unit test case & deploying project with CI/CD Pineline (Bitrise)"
-          ]
-        },
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/esdlife.jpeg",
-          "role": "Mobile Apps Developer (Android)",
-          "company": "Esdlife",
-          "time": "2020 Aug - Now",
-          "desc": [
-            "• Under DBS Card + team to develop Android apps",
-            "• Handle banking security and client problems",
-            "• POC with different new possible features",
-            "• Testing project with unit test case & deploying project with CI/CD Pineline (Jenkins)"
-          ]
-        },
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/cccdi.jpg",
-          "role": "Mobile Apps Developer (Android & iOS)",
-          "company": "cccdi ltd.",
-          "time": "2018 Aug - 2020 Aug",
-          "desc": [
-            "• Handle different onsite & cross platform project",
-            "• Communicate with Designer, Backend developer and project manager",
-            "• Mobile application using Java, Objective-c and React-Native"
-          ]
-        },
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/innopage.png",
-          "role": "Mobile Apps Developer (Placement)",
-          "company": "InnoPage",
-          "time": "2017 Jul - 2018 Apr",
-          "desc": [
-            "• Full Stack Placement Developer",
-            "• Mobile / web / backend application using Java, Swift, Node.js & JavaScript"
-          ]
-        },
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/hkbackpacker.jpeg",
-          "role": "Mobile Apps Developer (Placement)",
-          "company": "HKBackpackers (NGO)",
-          "time": "2015 Jul - 2015 Aug",
-          "desc": [
-            "• Build an Android Application",
-            "• Help backpackers create activities and communicate"
-          ]
-        },
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/cityu.png",
-          "role": "Degree in Computer Science",
-          "company": "City University Of Hong Kong",
-          "time": "2016 - 2018",
-          "desc": [
-            
-          ]
-        },
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/ive.png",
-          "role": "High Diploma in Software Engineering",
-          "company": "Hong kong Institute of Vocational Education (Tsing Yi)",
-          "time": "2014 - 2016",
-          "desc": [
-            
-          ]
-        }
-      ],
-      "skills": [
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/mobile.jpg",
-          "name": "Frontend",
-          "desc": [
-            "Android - Java/Kotlin",
-            "iOS - Objective-C/Swift",
-            "React Native",
-            "ReactJS/jQuery/EJS/Jade"
-          ]
-        },
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/server.jpg",
-          "name": "Backend",
-          "desc": [
-            "Node.js",
-            "Express/AdonisJs",
-            "MySQL"
-          ]
-        },
-        {
-          "img": "https://fung199609.github.io/portfolio/images/layouts/profile/others.jpg",
-          "name": "Others",
-          "desc": [
-            "Unit Testing (JUnit)",
-            "Shell Script",
-            "Processing",
-            "Raspberry Pi"
-          ]
-        }
-      ],
-      "desc": "4 Years Working Experience / Android & iOS Native / React Native"
-    },
-    "projects": [
+  "contact": {
+    "name": "Andy Chan",
+    "desc": "4 Years Working Experience / Android & iOS Native / React Native",
+    "contact": {
+      "email": "mailto:fung199609@gmail.com",
+      "linkedin": "https://www.linkedin.com/in/tsz-fung-chan-629293158/",
+      "tg": "https://telegram.me/fung8786"
+    }
+  },
+  "resumes": {
+    "works": [
       {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
-        "type": "mobile",
-        "title": "DBS Card+ (Develop & Maintenance)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/4.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/5.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/6.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/7.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/8.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with Native (Android)",
-              "Layout Revamp",
-              "Handle all mobile security",
-              "Work in a large team"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Seamless and speedy credit card and loan application from DBS Omni Mobile App",
-              "Adopt more innovative functions to elevate the user experience"
-            ]
-          }
-        ],
-        "desc": "In response to the ever-changing e-Banking era, we revamped the award-winning mobile app – DBS Omni to DBS Card+ HK for DBS Bank (Hong Kong) and brought it to a whole new level. Apart from the seamless and speedy credit card and loan application from DBS Omni Mobile App, we uplift the user interface (UI) and adopt more innovative functions to elevate the user experience."
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/dowjones.jpeg",
+        "role": "Software Engineer",
+        "company": "Dowjones",
+        "time": "2021 Jul - Now",
+        "desc": [
+          "• Participate in large-scale mobile apps (MarketWatch, Barrons, Financial News)",
+          "• Cooperate with teams from different global foreign countries",
+          "• Focus on coding quality and structure design",
+          "• Testing project with unit test case & deploying project with CI/CD Pineline (Bitrise)"
+        ]
       },
       {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/dbs_home_360.jpeg",
-        "type": "mobile",
-        "title": "DBS Home360 (Maintenance)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/4.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/5.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/6.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with React Native",
-              "Properties for Me and Search for Properties",
-              "Work in a large team"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "View properties anytime anywhere with VR",
-              "Get an instant approval for mortgage in a minute",
-              "Assess your mortgage affordability right away",
-              "Home budgeting at a glance",
-              "Find out your property value instantly"
-            ]
-          }
-        ],
-        "desc": "You can access DBS Home360 wherever your mobile device connects to the Internet. Please be reminded that data roaming charges may apply and the information is for Hong Kong market only. For details of data roaming charges, please contact your telecommunication service providers."
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/esdlife.jpeg",
+        "role": "Mobile Apps Developer (Android)",
+        "company": "Esdlife",
+        "time": "2020 Aug - Now",
+        "desc": [
+          "• Under DBS Card + team to develop Android apps",
+          "• Handle banking security and client problems",
+          "• POC with different new possible features",
+          "• Testing project with unit test case & deploying project with CI/CD Pineline (Jenkins)"
+        ]
       },
       {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/mobile_festival_walk.png",
-        "type": "mobile",
-        "title": "Festival Walk 又一城 Mobile App (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/mobile_festival_walk.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/4.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/5.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/6.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with React-Native (iOS & Android)",
-              "Layout Revamp"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Enhance customers\" shopping experience",
-              "Enrich of customer database for target marketing"
-            ]
-          }
-        ],
-        "desc": "In order to enhance the customers’ shopping experiences, the new app is launched with the first-ever loyalty programme of Festival Walk. Customers can register as member via the app to enjoy a wide range of exclusive privileges, discover the mall more convenient, to know the availability of parking space by getting real-time information and more.\n\nFestival Walk aims to build a shoppers\" database to facilitate deep-dive data analytics for enabling target marketing. A tenant app is also built for tenant use to support marketing campaign activities. The new development of the loyalty program via Customer Relationship Management (CRM) and Application Programming Interface (API) making data sharing more efficient, accurately obtain on customers’ statistics for a better understanding on customers’ spending behavior."
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/cccdi.jpg",
+        "role": "Mobile Apps Developer (Android & iOS)",
+        "company": "cccdi ltd.",
+        "time": "2018 Aug - 2020 Aug",
+        "desc": [
+          "• Handle different onsite & cross platform project",
+          "• Communicate with Designer, Backend developer and project manager",
+          "• Mobile application using Java, Objective-c and React-Native"
+        ]
       },
       {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/mobile_mpfa.png",
-        "type": "mobile",
-        "title": "MPFA Retirement Planning Mobile App (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/mobile_mpfa.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/4.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/5.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with React-Native (iOS & Android)",
-              "Layout Revamp"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Mobile App Revamp, CRM, Promotions, Motion Graphics",
-              "Retirement planning calculator",
-              "Spending tracker"
-            ]
-          }
-        ],
-        "desc": "The MPFA is a statutory body established since 1998, their mission is to regulate and supervise privately managed provident fund schemes as well as to educate the working population about saving for retirement and the role of the MPF System as one of the pillars supporting retirement living.\n\n\n\nThe MPFA has launched a mobile app - 「樂享退休GPS」 , a retirement planning mobile app to help public reach their retirement savings goal step by step. The mobile app keeps you on track to achieve your retirement goals gradually by helping you calculate your retirement needs, set a saving goal, and manage your money wisely.",
-        "youtubeId": "mKrG-eHg_Oo"
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/innopage.png",
+        "role": "Mobile Apps Developer (Placement)",
+        "company": "InnoPage",
+        "time": "2017 Jul - 2018 Apr",
+        "desc": [
+          "• Full Stack Placement Developer",
+          "• Mobile / web / backend application using Java, Swift, Node.js & JavaScript"
+        ]
       },
       {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/bea/mobile_bea.png",
-        "type": "mobile",
-        "title": "BEA Mobile App (Maintenance)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/bea/1.jpg",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/bea/2.jpg",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/bea/3.jpg",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/bea/4.jpg"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with ionic (HTML, JavaScript, Angular 3)"
-            ]
-          },
-          {
-            "title": "Keep on maintenance & enhance UX"
-          }
-        ],
-        "desc": "The bank recently launched an entirely new level of mobile banking services in Asia with a fresh revamp of the BEA App. The app’s new design is in step with the latest global trends and significantly enhances the user experience. Customers with BEA’s premium SupremeGold account have a choice of colour scheme for the new interface: classic red or prestige black/gold.",
-        "youtubeId": "9R2w4t8hBns"
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/hkbackpacker.jpeg",
+        "role": "Mobile Apps Developer (Placement)",
+        "company": "HKBackpackers (NGO)",
+        "time": "2015 Jul - 2015 Aug",
+        "desc": [
+          "• Build an Android Application",
+          "• Help backpackers create activities and communicate"
+        ]
       },
       {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/boc/1.jpg",
-        "type": "mobile",
-        "title": "BOC Payment App (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/boc/1.jpg",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/boc/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/boc/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/boc/4.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with Objective-C (Native)"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Simulate the real BoC app into large 4k TV",
-              "Provide a hand-on experience and education to visitors on how to use Boc Pay."
-            ]
-          }
-        ],
-        "desc": "The Bank of China would like to showcase the visitors for its newly cross-border payment mobile application - BoC Pay. The apps enables mobile payment function in Greater Bay Area by scanning QR code with BoC Pay, without the need of opening a bank account on the mainland. Also, together with the P2P transfer function, users make free and instant interbank transfers anytime.",
-        "youtubeId": "c6ijxrVVpxM"
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/cityu.png",
+        "role": "Degree in Computer Science",
+        "company": "City University Of Hong Kong",
+        "time": "2016 - 2018",
+        "desc": []
       },
       {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/ipad_hkhs.png",
-        "type": "mobile",
-        "title": "HKHS iPad App (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/3.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with Objective-C (Native)"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Show all information and videos of different housing schemes",
-              "Multimedia interfative table"
-            ]
-          }
-        ],
-        "desc": "A multimedia interactive table presenting the work of HKHS over the past seven decades is the highlight of this zone. Visitors can play with it to search for the information and videos of different housing schemes, thereby have a deeper understanding of the mission of HKHS.",
-        "youtubeId": "ndMDe9fiCc0"
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/1.png",
-        "type": "mobile",
-        "title": "iPad Voiceup App (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/4.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with Objective-C (Native)"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Voice Interactive",
-              "Mix-up sound wave, selfie and cheer up sentences",
-              "Produce a funny gif image"
-            ]
-          }
-        ],
-        "desc": "In order to encourage people to raise their awareness of mental health, the phone booth with iPad games is created, visitors could leave their message of support; their unique sound spectrum will be then generated with  selfie as an e-card, which enable them to send to friends for sharing their cares. The first installation of iPad game will be at Jardine Strategic Meeting, and then will be displayed in different locations in the form of roadshow.",
-        "youtubeId": "RrFBYSXxS8I"
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/mobile_twparking.png",
-        "type": "mobile",
-        "title": "TW Smart Parking Mobile App",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/2.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with React Native (iOS & Android)"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Real time vacancy",
-              "Enhance convenience",
-              "One-touch navigation"
-            ]
-          }
-        ],
-        "desc": "TW Smart Parking (荃易泊) app offer drivers the easiest way to reach real time car park vacancy data, parking rate and one-touch navigation to the developments in Tsuen Wan. Enhances convenience for drivers in reducing unnecessary car journeys and relieves traffic congestion. Consider different user preferences and habits, the app designed with map view and list view to facilitate drivers in different situations. It’s not limited to private car drivers to get the real time vacancy data nearby, parking rate and privileges etc. "
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/lta/mobile_lta.png",
-        "type": "mobile",
-        "title": "Lee Tung Avenue Mobile App",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/lta/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/lta/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/lta/3.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with React Native (iOS & Android)"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Event & Shop information",
-              "Membership",
-              "Lantern Interactive (iBeacon)",
-              "Create own lighting show (iOT control)"
-            ]
-          }
-        ],
-        "desc": "Lee Tung Avenue spent a wonderful Mid-Autumn Festival with public under an impressive giant moon art installation named “museum of the Moon”. The fairy-tale romance was continued this year with a new exhibition, the “Moon Rabbit Lumiere”. 10 giant “Moon Rabbit” appeared along Lee Tung Avenue. A mobile application is developed to allow visitors to control the iconic lanterns for a truly immersive and interactive experience. A reward program “Chinese Riddle Hide and Seek” is introduced to win surprising rewards."
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/pandaplace/mobile_pandaplace.png",
-        "type": "mobile",
-        "title": "Panda Place Mobile App (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/pandaplace/1.jpg"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with React Native (iOS & Android)",
-              "Layout Revamp"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Event & Shop information",
-              "Membership"
-            ]
-          }
-        ],
-        "desc": "The client would like to put the membership programme functions online, allowing the customers to check their points, redemption record, and reserve gifts online anytime and anywhere. The previous CRM system were not capable to support on the increasing of needs, therefore, we manage the customers’ data migration and integrated the new revamped mobile apps to our CCCRM. It is a big improvement in their mobile apps."
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/mobile_fanshare.png",
-        "type": "mobile",
-        "title": "Mabella Mobile App (Maintenance)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/1.jpg",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/2.jpg",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/4.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with Java & Objective-C (Native)"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Retails / MaBelle Jewellery's Information",
-              "Online Shop",
-              "Latest fashion news"
-            ]
-          }
-        ],
-        "desc": "A “fanShare” mobile application was developed in a clear User Interface (UI) design, which is easy and with clear instruction to use. With secure privacy protection, customer’s information in the transaction procedure is under restricted function. The app not only provide online shopping and flash sale, user can browser extra information of the product by QR code function."
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/mobile_shkp.png",
-        "type": "mobile",
-        "title": "SHKP Mobile App (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/3.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with React Native (iOS & Android)",
-              "Layout Revamp"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Event News",
-              "Online Registration"
-            ]
-          }
-        ],
-        "desc": "We have created a set of online platform to provide the latest information including race details, key days’ event, online registration to race result and highlight. We have also implemented a post event strategy, and developed a user-friendly race result search engine and certificate generator for international runners. Users can receive the instant information and key message in a mobile application version.",
-        "youtubeId": "wVqsla99-J4"
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/mobile_asapara.png",
-        "type": "mobile",
-        "title": "Asapara Mobile App (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/4.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with Swift (iOS)"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Monitor plant growth",
-              "Adjust the enviornment (light & temperature)"
-            ]
-          }
-        ],
-        "desc": "The aspara IoT-connected app allows you to monitor the growing process from the palm of your hand. Among other things, it lets you know how much light your plants have received, the amount of nutrients they have and when to refill the water tank. The app also brings convenience, by allowing you to control aspara remotely.",
-        "youtubeId": "RCe0SEz03r8"
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/web_foodbulous.png",
-        "type": "web",
-        "title": "Foodbulous Website (Develop)",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/web_foodbulous.png",
-          "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/2.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with NodeJS + Express, Html, JQuery"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Latest food reviews",
-              "Ranking of hottest bloggers"
-            ]
-          }
-        ],
-        "desc": "Foodbulous is a restaurant guide that simplifies the restaurant searching experience. Cur​ate your food decks and discover dining ideas.",
-        "youtubeId": "uSGUHFum4z8"
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/others/multimedia/other_multimedia.png",
-        "type": "other",
-        "title": "CityU CS3483 - Multimodal Project",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/3.png",
-          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/4.png",
-          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/5.png",
-          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/6.png",
-          "https://fung199609.github.io/portfolio/images/projects/others/multimedia/7.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with Processing",
-              "Using Leap Motion and OpenCV"
-            ]
-          },
-          {
-            "title": "Features",
-            "sub": [
-              "Easing the overuse of finger joints & pressure of the neck",
-              "Exercise with some gestures and postures",
-              "Check the gestures correctness though Leap Motion & OpenCV"
-            ]
-          }
-        ],
-        "desc": "There are too many factors of causing Osteoarthritis or other musculoskeletal disorders, and not every factors could be solved by IT technical, therefore the project only focus on easing the overuse of finger joints and the pressure of the neck by doing some gesture and posture, and check the correctness through Leap Motion and OpenCV.",
-        "youtubeId": "nFAorEQFcGM"
-      },
-      {
-        "img": "https://fung199609.github.io/portfolio/images/projects/others/aigame/other_aigame.png",
-        "type": "other",
-        "title": "CityU CS4386 - AI Game",
-        "images": [
-          "https://fung199609.github.io/portfolio/images/projects/others/aigame/1.png",
-          "https://fung199609.github.io/portfolio/images/projects/others/aigame/2.png",
-          "https://fung199609.github.io/portfolio/images/projects/others/aigame/3.png"
-        ],
-        "responsibility": [
-          {
-            "title": "Frond-end Layout Implementation",
-            "sub": [
-              "Develop with Html5 & JavaScript"
-            ]
-          },
-          {
-            "title": "Tasks",
-            "sub": [
-              "Enemy AI with different difficulty",
-              "mixture of deterministic AI and non-deterministic AI",
-              "Pathfinding, Decision Making and Collision"
-            ]
-          }
-        ],
-        "desc": "FunFing Fight is a real time tactic game, but it is a bit different from those games with the same category, such as Total War series, Command & Conquer 4: Tiberian Twilight and Shadow Tactics: Blades of the Shogun, those games required player to control and decide the next action for one or more units of characters. And that makes the biggest different from those games, since FunFing Fight is not require the player to control any action of the unit, player’s duty is to decide which type of unit that need to be spawn and the position of the unit dispatch at the screen.",
-        "youtubeId": "uz89kjB7-e4"
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/ive.png",
+        "role": "High Diploma in Software Engineering",
+        "company": "Hong kong Institute of Vocational Education (Tsing Yi)",
+        "time": "2014 - 2016",
+        "desc": []
       }
-    ]
-  }
+    ],
+    "skills": [
+      {
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/mobile.jpg",
+        "name": "Frontend",
+        "desc": [
+          "Android - Java/Kotlin",
+          "iOS - Objective-C/Swift",
+          "React Native",
+          "ReactJS/jQuery/EJS/Jade"
+        ]
+      },
+      {
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/server.jpg",
+        "name": "Backend",
+        "desc": [
+          "Node.js",
+          "Express/AdonisJs",
+          "MySQL"
+        ]
+      },
+      {
+        "img": "https://fung199609.github.io/portfolio/images/layouts/profile/others.jpg",
+        "name": "Others",
+        "desc": [
+          "Unit Testing (JUnit)",
+          "Shell Script",
+          "Processing",
+          "Raspberry Pi"
+        ]
+      }
+    ],
+    "desc": "4 Years Working Experience / Android & iOS Native / React Native"
+  },
+  "projects": [
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
+      "type": "mobile",
+      "title": "DBS Card+ (Develop & Maintenance)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/4.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/5.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/6.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/7.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/8.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with Native (Android)",
+            "Layout Revamp",
+            "Handle all mobile security",
+            "Work in a large team"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Seamless and speedy credit card and loan application from DBS Omni Mobile App",
+            "Adopt more innovative functions to elevate the user experience"
+          ]
+        }
+      ],
+      "desc": "In response to the ever-changing e-Banking era, we revamped the award-winning mobile app – DBS Omni to DBS Card+ HK for DBS Bank (Hong Kong) and brought it to a whole new level. Apart from the seamless and speedy credit card and loan application from DBS Omni Mobile App, we uplift the user interface (UI) and adopt more innovative functions to elevate the user experience."
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/dbs_home_360.jpeg",
+      "type": "mobile",
+      "title": "DBS Home360 (Maintenance)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/4.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/5.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_home_360/6.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with React Native",
+            "Properties for Me and Search for Properties",
+            "Work in a large team"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "View properties anytime anywhere with VR",
+            "Get an instant approval for mortgage in a minute",
+            "Assess your mortgage affordability right away",
+            "Home budgeting at a glance",
+            "Find out your property value instantly"
+          ]
+        }
+      ],
+      "desc": "You can access DBS Home360 wherever your mobile device connects to the Internet. Please be reminded that data roaming charges may apply and the information is for Hong Kong market only. For details of data roaming charges, please contact your telecommunication service providers."
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/mobile_festival_walk.png",
+      "type": "mobile",
+      "title": "Festival Walk 又一城 Mobile App (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/mobile_festival_walk.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/4.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/5.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/6.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with React-Native (iOS & Android)",
+            "Layout Revamp"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Enhance customers\" shopping experience",
+            "Enrich of customer database for target marketing"
+          ]
+        }
+      ],
+      "desc": "In order to enhance the customers’ shopping experiences, the new app is launched with the first-ever loyalty programme of Festival Walk. Customers can register as member via the app to enjoy a wide range of exclusive privileges, discover the mall more convenient, to know the availability of parking space by getting real-time information and more.\n\nFestival Walk aims to build a shoppers\" database to facilitate deep-dive data analytics for enabling target marketing. A tenant app is also built for tenant use to support marketing campaign activities. The new development of the loyalty program via Customer Relationship Management (CRM) and Application Programming Interface (API) making data sharing more efficient, accurately obtain on customers’ statistics for a better understanding on customers’ spending behavior."
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/mobile_mpfa.png",
+      "type": "mobile",
+      "title": "MPFA Retirement Planning Mobile App (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/mobile_mpfa.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/4.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mpfa/5.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with React-Native (iOS & Android)",
+            "Layout Revamp"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Mobile App Revamp, CRM, Promotions, Motion Graphics",
+            "Retirement planning calculator",
+            "Spending tracker"
+          ]
+        }
+      ],
+      "desc": "The MPFA is a statutory body established since 1998, their mission is to regulate and supervise privately managed provident fund schemes as well as to educate the working population about saving for retirement and the role of the MPF System as one of the pillars supporting retirement living.\n\n\n\nThe MPFA has launched a mobile app - 「樂享退休GPS」 , a retirement planning mobile app to help public reach their retirement savings goal step by step. The mobile app keeps you on track to achieve your retirement goals gradually by helping you calculate your retirement needs, set a saving goal, and manage your money wisely.",
+      "youtubeId": "mKrG-eHg_Oo"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/bea/mobile_bea.png",
+      "type": "mobile",
+      "title": "BEA Mobile App (Maintenance)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/bea/1.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/bea/2.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/bea/3.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/bea/4.jpg"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with ionic (HTML, JavaScript, Angular 3)"
+          ]
+        },
+        {
+          "title": "Keep on maintenance & enhance UX"
+        }
+      ],
+      "desc": "The bank recently launched an entirely new level of mobile banking services in Asia with a fresh revamp of the BEA App. The app’s new design is in step with the latest global trends and significantly enhances the user experience. Customers with BEA’s premium SupremeGold account have a choice of colour scheme for the new interface: classic red or prestige black/gold.",
+      "youtubeId": "9R2w4t8hBns"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/boc/1.jpg",
+      "type": "mobile",
+      "title": "BOC Payment App (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/boc/1.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/boc/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/boc/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/boc/4.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with Objective-C (Native)"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Simulate the real BoC app into large 4k TV",
+            "Provide a hand-on experience and education to visitors on how to use Boc Pay."
+          ]
+        }
+      ],
+      "desc": "The Bank of China would like to showcase the visitors for its newly cross-border payment mobile application - BoC Pay. The apps enables mobile payment function in Greater Bay Area by scanning QR code with BoC Pay, without the need of opening a bank account on the mainland. Also, together with the P2P transfer function, users make free and instant interbank transfers anytime.",
+      "youtubeId": "c6ijxrVVpxM"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/ipad_hkhs.png",
+      "type": "mobile",
+      "title": "HKHS iPad App (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/hkhs/3.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with Objective-C (Native)"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Show all information and videos of different housing schemes",
+            "Multimedia interfative table"
+          ]
+        }
+      ],
+      "desc": "A multimedia interactive table presenting the work of HKHS over the past seven decades is the highlight of this zone. Visitors can play with it to search for the information and videos of different housing schemes, thereby have a deeper understanding of the mission of HKHS.",
+      "youtubeId": "ndMDe9fiCc0"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/1.png",
+      "type": "mobile",
+      "title": "iPad Voiceup App (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/voiceup/4.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with Objective-C (Native)"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Voice Interactive",
+            "Mix-up sound wave, selfie and cheer up sentences",
+            "Produce a funny gif image"
+          ]
+        }
+      ],
+      "desc": "In order to encourage people to raise their awareness of mental health, the phone booth with iPad games is created, visitors could leave their message of support; their unique sound spectrum will be then generated with  selfie as an e-card, which enable them to send to friends for sharing their cares. The first installation of iPad game will be at Jardine Strategic Meeting, and then will be displayed in different locations in the form of roadshow.",
+      "youtubeId": "RrFBYSXxS8I"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/mobile_twparking.png",
+      "type": "mobile",
+      "title": "TW Smart Parking Mobile App",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/twparking/2.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with React Native (iOS & Android)"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Real time vacancy",
+            "Enhance convenience",
+            "One-touch navigation"
+          ]
+        }
+      ],
+      "desc": "TW Smart Parking (荃易泊) app offer drivers the easiest way to reach real time car park vacancy data, parking rate and one-touch navigation to the developments in Tsuen Wan. Enhances convenience for drivers in reducing unnecessary car journeys and relieves traffic congestion. Consider different user preferences and habits, the app designed with map view and list view to facilitate drivers in different situations. It’s not limited to private car drivers to get the real time vacancy data nearby, parking rate and privileges etc. "
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/lta/mobile_lta.png",
+      "type": "mobile",
+      "title": "Lee Tung Avenue Mobile App",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/lta/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/lta/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/lta/3.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with React Native (iOS & Android)"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Event & Shop information",
+            "Membership",
+            "Lantern Interactive (iBeacon)",
+            "Create own lighting show (iOT control)"
+          ]
+        }
+      ],
+      "desc": "Lee Tung Avenue spent a wonderful Mid-Autumn Festival with public under an impressive giant moon art installation named “museum of the Moon”. The fairy-tale romance was continued this year with a new exhibition, the “Moon Rabbit Lumiere”. 10 giant “Moon Rabbit” appeared along Lee Tung Avenue. A mobile application is developed to allow visitors to control the iconic lanterns for a truly immersive and interactive experience. A reward program “Chinese Riddle Hide and Seek” is introduced to win surprising rewards."
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/pandaplace/mobile_pandaplace.png",
+      "type": "mobile",
+      "title": "Panda Place Mobile App (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/pandaplace/1.jpg"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with React Native (iOS & Android)",
+            "Layout Revamp"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Event & Shop information",
+            "Membership"
+          ]
+        }
+      ],
+      "desc": "The client would like to put the membership programme functions online, allowing the customers to check their points, redemption record, and reserve gifts online anytime and anywhere. The previous CRM system were not capable to support on the increasing of needs, therefore, we manage the customers’ data migration and integrated the new revamped mobile apps to our CCCRM. It is a big improvement in their mobile apps."
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/mobile_fanshare.png",
+      "type": "mobile",
+      "title": "Mabella Mobile App (Maintenance)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/1.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/2.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/mabella/4.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with Java & Objective-C (Native)"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Retails / MaBelle Jewellery's Information",
+            "Online Shop",
+            "Latest fashion news"
+          ]
+        }
+      ],
+      "desc": "A “fanShare” mobile application was developed in a clear User Interface (UI) design, which is easy and with clear instruction to use. With secure privacy protection, customer’s information in the transaction procedure is under restricted function. The app not only provide online shopping and flash sale, user can browser extra information of the product by QR code function."
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/mobile_shkp.png",
+      "type": "mobile",
+      "title": "SHKP Mobile App (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/shkp/3.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with React Native (iOS & Android)",
+            "Layout Revamp"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Event News",
+            "Online Registration"
+          ]
+        }
+      ],
+      "desc": "We have created a set of online platform to provide the latest information including race details, key days’ event, online registration to race result and highlight. We have also implemented a post event strategy, and developed a user-friendly race result search engine and certificate generator for international runners. Users can receive the instant information and key message in a mobile application version.",
+      "youtubeId": "wVqsla99-J4"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/mobile_asapara.png",
+      "type": "mobile",
+      "title": "Asapara Mobile App (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/4.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with Swift (iOS)"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Monitor plant growth",
+            "Adjust the enviornment (light & temperature)"
+          ]
+        }
+      ],
+      "desc": "The aspara IoT-connected app allows you to monitor the growing process from the palm of your hand. Among other things, it lets you know how much light your plants have received, the amount of nutrients they have and when to refill the water tank. The app also brings convenience, by allowing you to control aspara remotely.",
+      "youtubeId": "RCe0SEz03r8"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/web_foodbulous.png",
+      "type": "web",
+      "title": "Foodbulous Website (Develop)",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/web_foodbulous.png",
+        "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/web/foodbulous/2.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with NodeJS + Express, Html, JQuery"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Latest food reviews",
+            "Ranking of hottest bloggers"
+          ]
+        }
+      ],
+      "desc": "Foodbulous is a restaurant guide that simplifies the restaurant searching experience. Cur​ate your food decks and discover dining ideas.",
+      "youtubeId": "uSGUHFum4z8"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/others/multimedia/other_multimedia.png",
+      "type": "other",
+      "title": "CityU CS3483 - Multimodal Project",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/others/multimedia/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/others/multimedia/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/others/multimedia/3.png",
+        "https://fung199609.github.io/portfolio/images/projects/others/multimedia/4.png",
+        "https://fung199609.github.io/portfolio/images/projects/others/multimedia/5.png",
+        "https://fung199609.github.io/portfolio/images/projects/others/multimedia/6.png",
+        "https://fung199609.github.io/portfolio/images/projects/others/multimedia/7.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with Processing",
+            "Using Leap Motion and OpenCV"
+          ]
+        },
+        {
+          "title": "Features",
+          "sub": [
+            "Easing the overuse of finger joints & pressure of the neck",
+            "Exercise with some gestures and postures",
+            "Check the gestures correctness though Leap Motion & OpenCV"
+          ]
+        }
+      ],
+      "desc": "There are too many factors of causing Osteoarthritis or other musculoskeletal disorders, and not every factors could be solved by IT technical, therefore the project only focus on easing the overuse of finger joints and the pressure of the neck by doing some gesture and posture, and check the correctness through Leap Motion and OpenCV.",
+      "youtubeId": "nFAorEQFcGM"
+    },
+    {
+      "img": "https://fung199609.github.io/portfolio/images/projects/others/aigame/other_aigame.png",
+      "type": "other",
+      "title": "CityU CS4386 - AI Game",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/others/aigame/1.png",
+        "https://fung199609.github.io/portfolio/images/projects/others/aigame/2.png",
+        "https://fung199609.github.io/portfolio/images/projects/others/aigame/3.png"
+      ],
+      "responsibility": [
+        {
+          "title": "Frond-end Layout Implementation",
+          "sub": [
+            "Develop with Html5 & JavaScript"
+          ]
+        },
+        {
+          "title": "Tasks",
+          "sub": [
+            "Enemy AI with different difficulty",
+            "mixture of deterministic AI and non-deterministic AI",
+            "Pathfinding, Decision Making and Collision"
+          ]
+        }
+      ],
+      "desc": "FunFing Fight is a real time tactic game, but it is a bit different from those games with the same category, such as Total War series, Command & Conquer 4: Tiberian Twilight and Shadow Tactics: Blades of the Shogun, those games required player to control and decide the next action for one or more units of characters. And that makes the biggest different from those games, since FunFing Fight is not require the player to control any action of the unit, player’s duty is to decide which type of unit that need to be spawn and the position of the unit dispatch at the screen.",
+      "youtubeId": "uz89kjB7-e4"
+    }
+  ]
+}
