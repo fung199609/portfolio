@@ -105,6 +105,33 @@
   },
   "projects": [
     {
+      "img": "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/1.jpg",
+      "type": "mobile",
+      "title": "MarketWatch/Barrons'/FN Mobile App",
+      "images": [
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/1.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/2.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/3.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/4.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/5.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/6.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/7.jpg",
+        "https://fung199609.github.io/portfolio/images/projects/mobile/dowjones/8.jpg"
+      ],
+      "responsibility": [
+        {
+          "title": "Maintanance & Implementation",
+          "sub": [
+            "Develop with Native (Android)",
+            "Design, develop, and test mobile applications for MarketWatch / Barrons' / Financial News.",
+            "Work closely with global teams",
+            "Keep an eye on technical innovations and changing trends in the mobile landscape."
+          ]
+        }
+      ],
+      "desc": "The mobile team is building the next-generation of mobile apps for all of these brands and the apps will be delivered to millions of subscribers around the world. Our mission is to build a world class news consumption experience for our loyal readers. This is a fast growing team that plays an important role together with the newsroom, designers, CMS, backend teams, subscription and growth teams."
+    },
+    {
       "img": "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/dbs_card_plus.jpeg",
       "type": "mobile",
       "title": "DBS Card+ (Develop & Maintenance)",
@@ -176,7 +203,7 @@
     {
       "img": "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/mobile_festival_walk.png",
       "type": "mobile",
-      "title": "Festival Walk 又一城 Mobile App (Develop)",
+      "title": "Festival Walk Mobile App (Develop)",
       "images": [
         "https://fung199609.github.io/portfolio/images/projects/mobile/dbs_card_plus/mobile_festival_walk.png",
         "https://fung199609.github.io/portfolio/images/projects/mobile/festivalwalk/1.png",
@@ -480,7 +507,8 @@
         }
       ],
       "desc": "We have created a set of online platform to provide the latest information including race details, key days’ event, online registration to race result and highlight. We have also implemented a post event strategy, and developed a user-friendly race result search engine and certificate generator for international runners. Users can receive the instant information and key message in a mobile application version.",
-      "youtubeId": "wVqsla99-J4"
+      "youtubeId": "wVqsla99-J4",
+      "hidden": true
     },
     {
       "img": "https://fung199609.github.io/portfolio/images/projects/mobile/asapara/mobile_asapara.png",
@@ -569,7 +597,7 @@
       ],
       "desc": "There are too many factors of causing Osteoarthritis or other musculoskeletal disorders, and not every factors could be solved by IT technical, therefore the project only focus on easing the overuse of finger joints and the pressure of the neck by doing some gesture and posture, and check the correctness through Leap Motion and OpenCV.",
       "youtubeId": "nFAorEQFcGM",
-      "hidden": true
+      "hidden": false
     },
     {
       "img": "https://fung199609.github.io/portfolio/images/projects/others/aigame/other_aigame.png",
