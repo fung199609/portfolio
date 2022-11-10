@@ -32,7 +32,7 @@ class ProjectPage extends Component {
     };
 
     _renderImages = () => {
-        let tmpData = this.props.projects;
+        let tmpData = this.props.projects.filter(item => item.hidden != true);
         switch (this.state.index) {
             case 1:
                 tmpData = tmpData.filter(item => item.type === 'mobile');
